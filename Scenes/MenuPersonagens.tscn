@@ -1,0 +1,131 @@
+[gd_scene load_steps=16 format=2]
+
+[ext_resource path="res://Scenes/MenuPersonagens.gd" type="Script" id=1]
+[ext_resource path="res://Ritmic Fighter assets/Fontes/Sinister-Fonts_Foul-Fiend/Foul Fiend.otf" type="DynamicFontData" id=2]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADO.png" type="Texture" id=3]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Parado/parado-completo-resize/parado-resize1.png" type="Texture" id=4]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Parado/parado-completo-resize/parado-resize3.png" type="Texture" id=5]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Parado/parado-completo-resize/parado-resize6.png" type="Texture" id=6]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Parado/parado-completo-resize/parado-resize4.png" type="Texture" id=7]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Parado/parado-completo-resize/parado-resize2.png" type="Texture" id=8]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Parado/parado-completo-resize/parado-resize5.png" type="Texture" id=9]
+
+[sub_resource type="DynamicFont" id=1]
+size = 32
+font_data = ExtResource( 2 )
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 4 ), ExtResource( 8 ), ExtResource( 5 ), ExtResource( 7 ), ExtResource( 9 ), ExtResource( 6 ) ],
+"loop": true,
+"name": "parado",
+"speed": 8.0
+} ]
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=4]
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=5]
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=6]
+size = 36
+font_data = ExtResource( 2 )
+
+[node name="MenuPersonagem" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = -61.0734
+margin_top = -24.2025
+margin_right = 1352.93
+margin_bottom = 803.797
+
+[node name="Button" type="Button" parent="."]
+margin_left = 55.0
+margin_top = 31.0
+margin_right = 422.0
+margin_bottom = 114.0
+custom_fonts/font = SubResource( 1 )
+text = "Monge sem nome"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="Button"]
+
+[node name="Sprite" type="Sprite" parent="Button"]
+position = Vector2( 181.93, 393.409 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 3 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Button"]
+position = Vector2( 602.852, 327.318 )
+frames = SubResource( 2 )
+animation = "parado"
+frame = 4
+playing = true
+
+[node name="Label" type="Label" parent="Button"]
+margin_left = 489.0
+margin_top = 534.0
+margin_right = 640.0
+margin_bottom = 565.0
+custom_fonts/font = SubResource( 3 )
+text = "Tipo de jogo :"
+
+[node name="Label" type="Label" parent="."]
+visible = false
+margin_left = 498.0
+margin_top = 106.0
+margin_right = 821.0
+margin_bottom = 161.0
+custom_fonts/font = SubResource( 4 )
+text = "Escolher esse personagem ?"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button2" type="Button" parent="Label"]
+margin_left = 14.05
+margin_top = 75.0
+margin_right = 138.05
+margin_bottom = 138.0
+custom_fonts/font = SubResource( 5 )
+text = "Yes"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button3" type="Button" parent="Label"]
+margin_left = 171.19
+margin_top = 75.0569
+margin_right = 295.19
+margin_bottom = 138.057
+custom_fonts/font = SubResource( 5 )
+text = "No"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Personagem secreto" type="Label" parent="."]
+margin_left = 848.0
+margin_top = 43.0
+margin_right = 1253.0
+margin_bottom = 119.0
+custom_fonts/font = SubResource( 6 )
+text = "? ? ? ? ? ? ? ?"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="pressed" from="Label/Button2" to="." method="_on_Button2_pressed"]
+[connection signal="pressed" from="Label/Button3" to="." method="_on_Button3_pressed"]

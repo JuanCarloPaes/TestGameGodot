@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Life is a Lie - gasolina.ogg-cd89cd0c0759f79532fedb55a497fe52.oggstr"
+
+[deps]
+
+source_file="res://Scenes/Musicas(fases)/Gasolina(LIAL)/Life is a Lie - gasolina.ogg"
+dest_files=[ "res://.import/Life is a Lie - gasolina.ogg-cd89cd0c0759f79532fedb55a497fe52.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

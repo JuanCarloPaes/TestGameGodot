@@ -1,0 +1,301 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/MenuPrincipal.gd" type="Script" id=1]
+
+[node name="MenuPrincipal" type="Control" groups=[
+"Persist",
+]]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+modulate = Color( 0.729412, 0.729412, 0.729412, 1 )
+margin_left = -0.811951
+margin_top = -111.001
+margin_right = 1398.19
+margin_bottom = 724.999
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Musica1" type="Button" parent="."]
+margin_left = 62.0
+margin_top = 78.0
+margin_right = 273.0
+margin_bottom = 154.0
+
+[node name="Label" type="Label" parent="Musica1"]
+margin_left = 49.0
+margin_top = 16.0
+margin_right = 159.0
+margin_bottom = 47.0
+text = "Black Ice -
+ Municipal Waste"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pontosBlackIce" type="Label" parent="Musica1"]
+margin_left = 10.0
+margin_top = 52.0
+margin_right = 207.0
+margin_bottom = 75.0
+text = "0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Musica2" type="Button" parent="."]
+margin_left = 297.0
+margin_top = 78.0
+margin_right = 500.0
+margin_bottom = 154.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Musica2"]
+margin_left = -2.0
+margin_top = -6.0
+margin_right = 201.0
+margin_bottom = 67.0
+text = "Espancar e Matar-
+ Zumbis do Espaco"
+align = 1
+valign = 1
+
+[node name="pontoEspancEmatar" type="Label" parent="Musica2"]
+margin_left = 3.0
+margin_top = 54.0
+margin_right = 201.0
+margin_bottom = 73.0
+text = "0"
+align = 1
+
+[node name="Musica3" type="Button" parent="."]
+margin_left = 521.0
+margin_top = 78.0
+margin_right = 724.0
+margin_bottom = 154.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Musica3"]
+margin_left = -2.0
+margin_top = -6.0
+margin_right = 201.0
+margin_bottom = 67.0
+text = "The Demon is God - 
+Destruction"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pontosTheDemonIsGod" type="Label" parent="Musica3"]
+margin_left = 13.2982
+margin_top = 54.4702
+margin_right = 190.298
+margin_bottom = 68.4702
+text = "0"
+align = 1
+
+[node name="Musica4" type="Button" parent="."]
+margin_left = 750.0
+margin_top = 78.0
+margin_right = 953.0
+margin_bottom = 154.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Musica4"]
+margin_left = -2.0
+margin_top = -6.0
+margin_right = 201.0
+margin_bottom = 67.0
+text = "Over in a Flash -
+Max Anarchy"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pontosOverInAFlash" type="Label" parent="Musica4"]
+margin_left = 13.2982
+margin_top = 54.4702
+margin_right = 190.298
+margin_bottom = 68.4702
+text = "0"
+align = 1
+
+[node name="Musica5" type="Button" parent="."]
+margin_left = 980.0
+margin_top = 78.0
+margin_right = 1183.0
+margin_bottom = 154.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Musica5"]
+margin_left = 5.0
+margin_top = -6.0
+margin_right = 208.0
+margin_bottom = 67.0
+rect_scale = Vector2( 0.96, 1 )
+text = "They Came From Underground -
+Max Anarchy"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pontosTheyCameFromUnder" type="Label" parent="Musica5"]
+margin_left = 13.2982
+margin_top = 54.4702
+margin_right = 190.298
+margin_bottom = 68.4702
+text = "0"
+align = 1
+
+[node name="Musica6" type="Button" parent="."]
+margin_left = 62.0
+margin_top = 174.0
+margin_right = 274.0
+margin_bottom = 247.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Musica6"]
+margin_left = 5.0
+margin_top = -6.15778
+margin_right = 208.0
+margin_bottom = 66.8422
+rect_scale = Vector2( 0.96, 1 )
+text = "Hybrid Moments - 
+Misfits"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pontosHybridMoments" type="Label" parent="Musica6"]
+margin_left = 13.2982
+margin_top = 54.4702
+margin_right = 190.298
+margin_bottom = 68.4702
+text = "0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Musica7" type="Button" parent="."]
+margin_left = 297.0
+margin_top = 174.0
+margin_right = 502.0
+margin_bottom = 247.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Musica7"]
+margin_left = 5.0
+margin_top = -6.15778
+margin_right = 208.0
+margin_bottom = 66.8422
+rect_scale = Vector2( 0.96, 1 )
+text = "Move! (MadWorld) -
+Ox"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pontosMoveMW" type="Label" parent="Musica7"]
+margin_left = 13.2982
+margin_top = 54.4702
+margin_right = 190.298
+margin_bottom = 68.4702
+text = "0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Resetar progresso" type="Button" parent="."]
+margin_left = 1036.67
+margin_top = 651.933
+margin_right = 1239.67
+margin_bottom = 697.933
+text = "Resetar Progresso"
+
+[node name="Label" type="Label" parent="."]
+margin_left = 191.885
+margin_top = 5.72791
+margin_right = 1021.89
+margin_bottom = 82.7279
+text = "Escolha a música "
+align = 1
+valign = 1
+
+[node name="Personagens" type="Button" parent="."]
+margin_left = 41.0
+margin_top = 644.0
+margin_right = 270.0
+margin_bottom = 699.0
+text = "Personagens"
+
+[node name="kontol" type="Control" parent="Personagens"]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="Label" type="Panel" parent="Personagens/kontol"]
+self_modulate = Color( 0, 0, 0, 1 )
+margin_left = 51.0
+margin_top = -543.174
+margin_right = 1095.0
+margin_bottom = -182.174
+
+[node name="iori" type="Button" parent="Personagens/kontol/Label"]
+margin_left = 34.3109
+margin_top = 38.2181
+margin_right = 119.311
+margin_bottom = 71.2181
+text = "Iori Yagami"
+
+[node name="Lutadeiro" type="Button" parent="Personagens/kontol/Label"]
+margin_left = 155.0
+margin_top = 40.6427
+margin_right = 302.0
+margin_bottom = 69.6427
+text = "Lutadeiro sem Nome"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="Musica1" to="." method="_on_Musica1_pressed"]
+[connection signal="pressed" from="Musica2" to="." method="_on_Musica2_pressed"]
+[connection signal="pressed" from="Musica3" to="." method="_on_Musica3_pressed"]
+[connection signal="pressed" from="Musica4" to="." method="_on_Musica4_pressed"]
+[connection signal="pressed" from="Musica5" to="." method="_on_Musica5_pressed"]
+[connection signal="pressed" from="Musica6" to="." method="_on_Musica6_pressed"]
+[connection signal="pressed" from="Musica7" to="." method="_on_Musica7_pressed"]
+[connection signal="pressed" from="Resetar progresso" to="." method="_on_Resetar_progresso_pressed"]
+[connection signal="pressed" from="Personagens" to="." method="_on_Personagens_pressed"]
+[connection signal="pressed" from="Personagens/kontol/Label/iori" to="." method="_on_iori_pressed"]
+[connection signal="pressed" from="Personagens/kontol/Label/Lutadeiro" to="." method="_on_Lutadeiro_pressed"]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Flamethrower Sound Effects.ogg-e100579d62aa22060eb534609c28f969.oggstr"
+
+[deps]
+
+source_file="res://Ritmic Fighter assets/efeitos sonoros/lancaChamas/Flamethrower Sound Effects.ogg"
+dest_files=[ "res://.import/Flamethrower Sound Effects.ogg-e100579d62aa22060eb534609c28f969.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

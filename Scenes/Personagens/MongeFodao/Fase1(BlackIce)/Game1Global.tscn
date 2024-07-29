@@ -1,0 +1,202 @@
+[gd_scene load_steps=37 format=2]
+
+[ext_resource path="res://Scenes/Personagens/MongeFodao/Fase1(BlackIce)/Game1Global.gd" type="Script" id=1]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo1.png" type="Texture" id=2]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo2.png" type="Texture" id=3]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo3.png" type="Texture" id=4]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo4.png" type="Texture" id=5]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo5.png" type="Texture" id=6]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo6.png" type="Texture" id=7]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo7.png" type="Texture" id=8]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo8.png" type="Texture" id=9]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo9.png" type="Texture" id=10]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo10.png" type="Texture" id=11]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo11.png" type="Texture" id=12]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo12.png" type="Texture" id=13]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo13.png" type="Texture" id=14]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo14.png" type="Texture" id=15]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo15.png" type="Texture" id=16]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo16.png" type="Texture" id=17]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo17.png" type="Texture" id=18]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo18.png" type="Texture" id=19]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo19.png" type="Texture" id=20]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo20.png" type="Texture" id=21]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/TilesetArenaSangueCeleste/tilesetASC.tres" type="TileSet" id=22]
+[ext_resource path="res://Scenes/Personagens/MongeFodao/BasePersonagemMongeFodao/MongeFodao.tscn" type="PackedScene" id=23]
+[ext_resource path="res://Scenes/Musicas(fases)/Black Ice-Municipal Waste/AUDIO.tscn" type="PackedScene" id=24]
+[ext_resource path="res://Scenes/Musicas(fases)/Black Ice-Municipal Waste/CountdownMW(hazardousMutationAlbum)Numero3.png" type="Texture" id=25]
+[ext_resource path="res://Scenes/Personagens/MongeFodao/Fase1(BlackIce)/Spawn_InimigoOSUdos.tscn" type="PackedScene" id=26]
+[ext_resource path="res://Scenes/Musicas(fases)/Black Ice-Municipal Waste/CountdownMW(hazardousMutationAlbum)Numero1.png" type="Texture" id=27]
+[ext_resource path="res://Scenes/Musicas(fases)/Black Ice-Municipal Waste/CountdownMW(hazardousMutationAlbum)Numero2.png" type="Texture" id=28]
+[ext_resource path="res://Scenes/Musicas(fases)/Black Ice-Municipal Waste/CountdownMW(hazardousMutationAlbum)NumeroGO.png" type="Texture" id=29]
+[ext_resource path="res://Ritmic Fighter assets/Fontes/Sinister-Fonts_Foul-Fiend/Foul Fiend.otf" type="DynamicFontData" id=31]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ), ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ) ],
+"loop": true,
+"name": "default",
+"speed": 16.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 25.4209, 64.7714 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 31 )
+
+[sub_resource type="DynamicFont" id=4]
+size = 15
+font_data = ExtResource( 31 )
+
+[sub_resource type="Animation" id=5]
+length = 4.0
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("MongeFodao/countdown:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.98, 1, 1.98, 2, 2.98, 3, 3.99 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("MongeFodao/countdown:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1, 2, 3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 25 ), ExtResource( 28 ), ExtResource( 27 ), ExtResource( 29 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+length = 0.1
+
+[node name="Game" type="Node"]
+script = ExtResource( 1 )
+
+[node name="Sprite5" type="AnimatedSprite" parent="."]
+position = Vector2( 1962.72, 555.401 )
+scale = Vector2( 1.17, 1.5 )
+frames = SubResource( 1 )
+frame = 2
+playing = true
+offset = Vector2( -84.6115, -240.076 )
+
+[node name="Sprite6" type="AnimatedSprite" parent="."]
+position = Vector2( 2710.86, 555 )
+scale = Vector2( 1.17, 1.5 )
+frames = SubResource( 1 )
+frame = 1
+playing = true
+offset = Vector2( -84.6115, -240.076 )
+flip_h = true
+
+[node name="Sprite4" type="AnimatedSprite" parent="."]
+position = Vector2( 1115.5, 195.401 )
+scale = Vector2( 1.17, 1.5 )
+frames = SubResource( 1 )
+frame = 2
+playing = true
+flip_h = true
+
+[node name="TileMap" type="TileMap" parent="."]
+visible = false
+scale = Vector2( 1, 1.3 )
+tile_set = ExtResource( 22 )
+cell_size = Vector2( 128, 54 )
+format = 1
+tile_data = PoolIntArray( 0, 0, 0, 1, 5, 0, 2, 10, 0, 3, 15, 0, 4, 20, 0, 65536, 1, 0, 65537, 6, 0, 65538, 11, 0, 65539, 16, 0, 65540, 21, 0, 131072, 2, 0, 131073, 7, 0, 131074, 12, 0, 131075, 17, 0, 131076, 22, 0, 196608, 3, 0, 196609, 8, 0, 196610, 13, 0, 196611, 18, 0, 196612, 23, 0, 327665, 4, 0, 327666, 4, 0, 327667, 4, 0, 327668, 4, 0, 327669, 4, 0, 327670, 4, 0, 327671, 4, 0, 327672, 4, 0, 327673, 4, 0, 327674, 4, 0, 327675, 4, 0, 327676, 4, 0, 327677, 4, 0, 327678, 4, 0, 327679, 4, 0, 262144, 4, 0, 262145, 4, 0, 262146, 4, 0, 262147, 4, 0, 262148, 4, 0, 262149, 4, 0, 262150, 4, 0, 262151, 4, 0, 262152, 4, 0, 262153, 4, 0, 262154, 4, 0, 262155, 4, 0, 262156, 4, 0, 262157, 4, 0, 262158, 4, 0, 262159, 4, 0, 262160, 4, 0, 262161, 4, 0, 262162, 4, 0, 262163, 4, 0, 262164, 4, 0, 262165, 4, 0, 262166, 4, 0, 262167, 4, 0 )
+
+[node name="Sprite3" type="AnimatedSprite" parent="."]
+position = Vector2( -1128.09, 195.401 )
+scale = Vector2( 1.17, 1.5 )
+frames = SubResource( 1 )
+frame = 2
+playing = true
+offset = Vector2( 6.10352e-05, -1.52588e-05 )
+
+[node name="Sprite2" type="AnimatedSprite" parent="."]
+position = Vector2( -379.486, 195.401 )
+scale = Vector2( 1.17, 1.5 )
+frames = SubResource( 1 )
+frame = 2
+playing = true
+offset = Vector2( 6.10352e-05, -1.52588e-05 )
+flip_h = true
+
+[node name="Sprite" type="AnimatedSprite" parent="."]
+position = Vector2( 367.477, 195.401 )
+scale = Vector2( 1.17, 1.5 )
+frames = SubResource( 1 )
+frame = 2
+playing = true
+
+[node name="fimDeFase" type="Timer" parent="."]
+wait_time = 28.0
+
+[node name="AUDIO" parent="." instance=ExtResource( 24 )]
+
+[node name="MongeFodao" parent="." instance=ExtResource( 23 )]
+position = Vector2( 569.604, 202.488 )
+
+[node name="spawners" type="Node2D" parent="MongeFodao"]
+position = Vector2( -570.77, -202.488 )
+
+[node name="Spawn_Inimigo direita" parent="MongeFodao/spawners" instance=ExtResource( 26 )]
+position = Vector2( 990.438, 156.005 )
+
+[node name="danoFlorida" type="Area2D" parent="MongeFodao" groups=[
+"naArea",
+]]
+position = Vector2( 7, 0 )
+
+[node name="CollisionPolygon2D" type="CollisionShape2D" parent="MongeFodao/danoFlorida"]
+position = Vector2( -2.44873, 29 )
+shape = SubResource( 2 )
+
+[node name="countdown" type="Sprite" parent="MongeFodao"]
+position = Vector2( 105.823, -47.1448 )
+rotation = 12.5664
+scale = Vector2( 2, 2 )
+texture = ExtResource( 25 )
+
+[node name="ButtonRetry" type="Button" parent="MongeFodao"]
+visible = false
+margin_left = -29.0
+margin_top = -46.0
+margin_right = 239.0
+margin_bottom = -9.0
+custom_fonts/font = SubResource( 3 )
+text = "Tentar Novamente"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonQuit" type="Button" parent="MongeFodao"]
+visible = false
+margin_left = -27.0
+margin_top = -87.0
+margin_right = 236.0
+margin_bottom = -52.0
+custom_fonts/font = SubResource( 4 )
+text = "continuar"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="danoFloridaNimation" type="AnimationPlayer" parent="."]
+anims/countdown = SubResource( 5 )
+anims/dano = SubResource( 6 )
+[connection signal="timeout" from="fimDeFase" to="." method="_on_fimDeFase_timeout"]
+[connection signal="body_entered" from="MongeFodao/danoFlorida" to="." method="_on_danoFlorida_body_entered"]
+[connection signal="pressed" from="MongeFodao/ButtonRetry" to="." method="_on_ButtonRetry_pressed"]
+[connection signal="pressed" from="MongeFodao/ButtonQuit" to="." method="_on_ButtonQuit_pressed"]

@@ -1,0 +1,157 @@
+[gd_scene load_steps=43 format=2]
+
+[ext_resource path="res://Scenes/Personagens/MongeFodao/InimigosOSUdos/InimigoBandidoNikoBellic/nikoBellic1/nikoBellicDireita.gd" type="Script" id=1]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/Correndo/nikocorrendo1.png" type="Texture" id=2]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/Correndo/nikocorrendo2.png" type="Texture" id=3]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/Correndo/nikocorrendo3.png" type="Texture" id=4]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/machucado/murroechute/nikomachucadoalto/nikomachucadoGolpeAlto1.png" type="Texture" id=5]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/Correndo/nikocorrendo4.png" type="Texture" id=6]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/Correndo/nikocorrendo5.png" type="Texture" id=7]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/Correndo/nikocorrendo6.png" type="Texture" id=8]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/machucado/murroechute/nikomachucadoalto/nikomachucadoGolpeAlto2.png" type="Texture" id=9]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/Correndo/nikocorrendo7.png" type="Texture" id=10]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/Correndo/nikocorrendo8.png" type="Texture" id=11]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/desviarGolpe/nikodesviarSoco/nikodesviandosoco4.png" type="Texture" id=12]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/desviarGolpe/nikodesviarSoco/nikodesviandosoco7.png" type="Texture" id=13]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/IconesPorradaria/IconeChute.png" type="Texture" id=14]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/desviarGolpe/nikodesviarSoco/nikodesviandosoco9.png" type="Texture" id=15]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/desviarGolpe/nikodesviarSoco/nikodesviandosoco11.png" type="Texture" id=16]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/desviarGolpe/nikodesviarSoco/nikodesviandosoco10.png" type="Texture" id=17]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/Ataque/Murro/nikomurro1/nikomurro(1)1.png" type="Texture" id=18]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/desviarGolpe/nikodesviarSoco/nikodesviandosoco6.png" type="Texture" id=19]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/desviarGolpe/nikodesviarSoco/nikodesviandosoco5.png" type="Texture" id=20]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/Ataque/Murro/nikomurro1/nikomurro(1)2.png" type="Texture" id=21]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/Ataque/Murro/nikomurro1/nikomurro(1)3.png" type="Texture" id=22]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/Ataque/Murro/nikomurro1/nikomurro(1)4.png" type="Texture" id=23]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/desviarGolpe/nikodesviarSoco/nikodesviandosoco2.png" type="Texture" id=24]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/desviarGolpe/nikodesviarSoco/nikodesviandosoco8.png" type="Texture" id=25]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/machucado/nikomorrendo/nikomorrendo.png" type="Texture" id=26]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/machucado/murroechute/nikomachucadoalto/nikomachucadoGolpeAlto3.png" type="Texture" id=27]
+[ext_resource path="res://Scenes/EfeitosDeParticulas/PorradaNaCara/murro na cara.tscn" type="PackedScene" id=28]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/IndicadorDeErro/IndicadorDeErro2.png" type="Texture" id=29]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/IndicadorDeErro/IndicadorDeErro1.png" type="Texture" id=30]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/IndicadorDeErro/IndicadorDeErro3.png" type="Texture" id=31]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/IndicadorDeErro/IndicadorDeErro4.png" type="Texture" id=32]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/desviarGolpe/nikodesviarSoco/nikodesviandosoco1.png" type="Texture" id=33]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/desviarGolpe/nikodesviarSoco/nikodesviandosoco3.png" type="Texture" id=34]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/machucado/murroechute/nikomachucadobaixo/nikomachucadoGolpeBaixo1.png" type="Texture" id=35]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/machucado/murroechute/nikomachucadobaixo/nikomachucadoGolpeBaixo2.png" type="Texture" id=36]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/machucado/murroechute/nikomachucadobaixo/nikomachucadoGolpeBaixo3.png" type="Texture" id=37]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeNikoBellic/machucado/murroechute/nikomachucadobaixo/nikomachucadoGolpeBaixo4.png" type="Texture" id=38]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 35 ), ExtResource( 36 ), ExtResource( 37 ), ExtResource( 38 ) ],
+"loop": true,
+"name": "hitado",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 2 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 8 ), ExtResource( 10 ), ExtResource( 11 ) ],
+"loop": true,
+"name": "an",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 33 ), ExtResource( 24 ), ExtResource( 34 ), ExtResource( 12 ), ExtResource( 20 ), ExtResource( 19 ), ExtResource( 13 ), ExtResource( 25 ), ExtResource( 15 ), ExtResource( 17 ), ExtResource( 16 ) ],
+"loop": true,
+"name": "parryfodaA",
+"speed": 30.0
+}, {
+"frames": [ ExtResource( 18 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 23 ) ],
+"loop": true,
+"name": "socao",
+"speed": 20.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 16.7553, 40.7592 )
+
+[sub_resource type="Animation" id=3]
+resource_name = "morrendo"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3, 0.4 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 5 ), ExtResource( 9 ), ExtResource( 27 ), ExtResource( 26 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.2, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ), Vector2( 100, -25 ), Vector2( 300, 0 ) ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "erro"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath("erro:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 30 ), ExtResource( 29 ), ExtResource( 31 ), ExtResource( 32 ) ]
+}
+
+[node name="inimigoBandidoDireita" type="KinematicBody2D"]
+position = Vector2( 519.807, 256.324 )
+collision_layer = 4
+collision_mask = 5
+script = ExtResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -2.99103, 27.3288 )
+scale = Vector2( 1.2, 1.2 )
+frames = SubResource( 1 )
+animation = "an"
+playing = true
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -0.614014, -6.74319 )
+scale = Vector2( 1.336, 3 )
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+visible = false
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 5 )
+flip_h = true
+
+[node name="murro na cara" parent="Sprite" instance=ExtResource( 28 )]
+position = Vector2( 2.44031, -47.6912 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/morrendo = SubResource( 3 )
+
+[node name="Icone" type="Sprite" parent="."]
+position = Vector2( 0.770966, 1.14283 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 14 )
+
+[node name="tempodevida" type="Timer" parent="."]
+
+[node name="AnimationPlayer2" type="AnimationPlayer" parent="."]
+anims/erro = SubResource( 4 )
+
+[node name="erro" type="Sprite" parent="."]
+visible = false
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 30 )
+[connection signal="timeout" from="tempodevida" to="." method="_on_tempodevida_timeout"]

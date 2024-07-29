@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/Musicas(fases)/DescendoACanelada Calibre12/DescendocaneladaCalibre.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/Musicas(fases)/DescendoACanelada Calibre12/09 - Descendo A Canelada.ogg" type="AudioStream" id=2]
+
+[node name="DescendoCanelaCalibre" type="AudioStreamPlayer"]
+stream = ExtResource( 2 )
+script = ExtResource( 1 )
+[connection signal="finished" from="." to="." method="_on_GasolinaLIAL_finished"]

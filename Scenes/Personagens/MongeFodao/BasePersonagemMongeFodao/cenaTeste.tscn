@@ -1,0 +1,106 @@
+[gd_scene load_steps=27 format=2]
+
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/TilesetArenaSangueCeleste/tilesetASC.tres" type="TileSet" id=1]
+[ext_resource path="res://Scenes/Personagens/MongeFodao/BasePersonagemMongeFodao/CenaTeste.gd" type="Script" id=2]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo20.png" type="Texture" id=3]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo8.png" type="Texture" id=4]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo16.png" type="Texture" id=5]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo9.png" type="Texture" id=6]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo10.png" type="Texture" id=7]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo13.png" type="Texture" id=8]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo15.png" type="Texture" id=9]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo18.png" type="Texture" id=10]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo7.png" type="Texture" id=11]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo6.png" type="Texture" id=12]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo11.png" type="Texture" id=13]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo17.png" type="Texture" id=14]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo14.png" type="Texture" id=15]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo12.png" type="Texture" id=16]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo19.png" type="Texture" id=17]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo1.png" type="Texture" id=18]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo2.png" type="Texture" id=19]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo3.png" type="Texture" id=20]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo4.png" type="Texture" id=21]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/Backgroundo5.png" type="Texture" id=22]
+[ext_resource path="res://Scenes/Personagens/MongeFodao/BasePersonagemMongeFodao/MongeFodao.tscn" type="PackedScene" id=23]
+[ext_resource path="res://Scenes/Personagens/MongeFodao/InimigosOSUdos/ZumbichaOsudo/ZumbichaBandidaDireita.tscn" type="PackedScene" id=24]
+[ext_resource path="res://Scenes/Personagens/MongeFodao/InimigosOSUdos/ZumbichaOsudo/ZumbichaBandidaDireita2.tscn" type="PackedScene" id=25]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 18 ), ExtResource( 19 ), ExtResource( 20 ), ExtResource( 21 ), ExtResource( 22 ), ExtResource( 12 ), ExtResource( 11 ), ExtResource( 4 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 13 ), ExtResource( 16 ), ExtResource( 8 ), ExtResource( 15 ), ExtResource( 9 ), ExtResource( 5 ), ExtResource( 14 ), ExtResource( 10 ), ExtResource( 17 ), ExtResource( 3 ) ],
+"loop": true,
+"name": "default",
+"speed": 16.0
+} ]
+
+[node name="cenaTeste" type="Node2D"]
+
+[node name="Game" type="Node" parent="."]
+script = ExtResource( 2 )
+
+[node name="Sprite5" type="AnimatedSprite" parent="Game"]
+position = Vector2( 1963, 480 )
+scale = Vector2( 1.16965, 1.22294 )
+frames = SubResource( 1 )
+frame = 3
+playing = true
+offset = Vector2( -84.6115, -240.076 )
+
+[node name="Sprite6" type="AnimatedSprite" parent="Game"]
+position = Vector2( 2710.86, 480 )
+scale = Vector2( 1.16965, 1.22294 )
+frames = SubResource( 1 )
+frame = 2
+playing = true
+offset = Vector2( -84.6115, -240.076 )
+flip_h = true
+
+[node name="Sprite4" type="AnimatedSprite" parent="Game"]
+position = Vector2( 1115.5, 186.401 )
+scale = Vector2( 1.16965, 1.22294 )
+frames = SubResource( 1 )
+frame = 3
+playing = true
+flip_h = true
+
+[node name="TileMap" type="TileMap" parent="Game"]
+visible = false
+scale = Vector2( 1, 1.3 )
+tile_set = ExtResource( 1 )
+cell_size = Vector2( 128, 54 )
+format = 1
+tile_data = PoolIntArray( 0, 0, 0, 1, 5, 0, 2, 10, 0, 3, 15, 0, 4, 20, 0, 65536, 1, 0, 65537, 6, 0, 65538, 11, 0, 65539, 16, 0, 65540, 21, 0, 131072, 2, 0, 131073, 7, 0, 131074, 12, 0, 131075, 17, 0, 131076, 22, 0, 196608, 3, 0, 196609, 8, 0, 196610, 13, 0, 196611, 18, 0, 196612, 23, 0, 327665, 4, 0, 327666, 4, 0, 327667, 4, 0, 327668, 4, 0, 327669, 4, 0, 327670, 4, 0, 327671, 4, 0, 327672, 4, 0, 327673, 4, 0, 327674, 4, 0, 327675, 4, 0, 327676, 4, 0, 327677, 4, 0, 327678, 4, 0, 327679, 4, 0, 262144, 4, 0, 262145, 4, 0, 262146, 4, 0, 262147, 4, 0, 262148, 4, 0, 262149, 4, 0, 262150, 4, 0, 262151, 4, 0, 262152, 4, 0, 262153, 4, 0, 262154, 4, 0, 262155, 4, 0, 262156, 4, 0, 262157, 4, 0, 262158, 4, 0, 262159, 4, 0, 262160, 4, 0, 262161, 4, 0, 262162, 4, 0, 262163, 4, 0, 262164, 4, 0, 262165, 4, 0, 262166, 4, 0, 262167, 4, 0 )
+
+[node name="Sprite3" type="AnimatedSprite" parent="Game"]
+position = Vector2( -1128.09, 186.401 )
+scale = Vector2( 1.16965, 1.22294 )
+frames = SubResource( 1 )
+frame = 3
+playing = true
+offset = Vector2( 6.10352e-05, -1.52588e-05 )
+
+[node name="Sprite2" type="AnimatedSprite" parent="Game"]
+position = Vector2( -379.486, 186.401 )
+scale = Vector2( 1.16965, 1.22294 )
+frames = SubResource( 1 )
+frame = 3
+playing = true
+offset = Vector2( 6.10352e-05, -1.52588e-05 )
+flip_h = true
+
+[node name="Sprite" type="AnimatedSprite" parent="Game"]
+position = Vector2( 367.477, 186.401 )
+scale = Vector2( 1.16965, 1.22294 )
+frames = SubResource( 1 )
+frame = 3
+playing = true
+
+[node name="MongeFodao" parent="Game" instance=ExtResource( 23 )]
+position = Vector2( 533.447, 186.159 )
+
+[node name="inimigoBandidoDireita" parent="Game" instance=ExtResource( 24 )]
+position = Vector2( 795.608, 182.326 )
+
+[node name="inimigoBandidoDireita2" parent="Game" instance=ExtResource( 25 )]
+position = Vector2( 742.107, 184.124 )

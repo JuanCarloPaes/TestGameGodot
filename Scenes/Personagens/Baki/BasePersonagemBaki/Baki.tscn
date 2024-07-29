@@ -1,0 +1,2596 @@
+[gd_scene load_steps=211 format=2]
+
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteFrontal/bakiChuteFrontal-export6.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/Personagens/Baki/BasePersonagemBaki/Baki.gd" type="Script" id=2]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteCarregado/bakiChuteCarregado-export11.png" type="Texture" id=3]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiGanchoCavado/bakiGanchi-export1.png" type="Texture" id=4]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiGanchoCavado/bakiGanchi-export2.png" type="Texture" id=5]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiGanchoCavado/bakiGanchi-export6.png" type="Texture" id=6]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiGanchoCavado/bakiGanchi-export7.png" type="Texture" id=7]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiFeliz/bakiFeliz-export1.png" type="Texture" id=8]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiFeliz/bakiFeliz-export2.png" type="Texture" id=9]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiFeliz/bakiFeliz-export3.png" type="Texture" id=10]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiFeliz/bakiFeliz-export4.png" type="Texture" id=11]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiFeliz/bakiFeliz-export6.png" type="Texture" id=12]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiFeliz/bakiFeliz-export5.png" type="Texture" id=13]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiGanchoCavado/bakiGanchi-export4.png" type="Texture" id=14]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiGanchoCavado/bakiGanchi-export8.png" type="Texture" id=15]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiGanchoCavado/bakiGanchi-export5.png" type="Texture" id=16]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiGanchoCavado/bakiGanchi-export9.png" type="Texture" id=17]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiGanchoCavado/bakiGanchi-export3.png" type="Texture" id=18]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteCarregado/bakiChuteCarregado-export3.png" type="Texture" id=19]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteCarregado/bakiChuteCarregado-export1.png" type="Texture" id=20]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteCarregado/bakiChuteCarregado-export2.png" type="Texture" id=21]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteCarregado/bakiChuteCarregado-export10.png" type="Texture" id=22]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteCarregado/bakiChuteCarregado-export5.png" type="Texture" id=23]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteCarregado/bakiChuteCarregado-export4.png" type="Texture" id=24]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteCarregado/bakiChuteCarregado-export6.png" type="Texture" id=25]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteCarregado/bakiChuteCarregado-export8.png" type="Texture" id=26]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteCarregado/bakiChuteCarregado-export9.png" type="Texture" id=27]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteCarregado/bakiChuteCarregado-export7.png" type="Texture" id=28]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiGanchoCavado/bakiGanchi-export10.png" type="Texture" id=29]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiJoelhada/bakiJoelhada-export2.png" type="Texture" id=30]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiSocoNaCara/bakiSocoNaCara-export1.png" type="Texture" id=31]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiSocoNaCara/bakiSocoNaCara-export3.png" type="Texture" id=32]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiSocoNaCara/bakiSocoNaCara-export4.png" type="Texture" id=33]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiSocoNaCara/bakiSocoNaCara-export2.png" type="Texture" id=34]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiJoelhada/bakiJoelhada-export3.png" type="Texture" id=35]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiJoelhada/bakiJoelhada-export5.png" type="Texture" id=36]
+[ext_resource path="res://Scenes/EfeitosDeParticulas/PorradaNaCara/murro na cara.tscn" type="PackedScene" id=37]
+[ext_resource path="res://Scenes/EfeitosDeParticulas/PorradaNaCara/murro na caraEsquerda.tscn" type="PackedScene" id=40]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiAvanco/bakiAvanco-export5.png" type="Texture" id=41]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiAvanco/bakiAvanco-export2.png" type="Texture" id=42]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiAvanco/bakiAvanco-export6.png" type="Texture" id=43]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiAvanco/bakiAvanco-export7.png" type="Texture" id=44]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiAvanco/bakiAvanco-export3.png" type="Texture" id=45]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiAvanco/bakiAvanco-export4.png" type="Texture" id=46]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiAvanco/bakiAvanco-export1.png" type="Texture" id=47]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteFrontal/bakiChuteFrontal-export1.png" type="Texture" id=48]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteFrontal/bakiChuteFrontal-export2.png" type="Texture" id=49]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteFrontal/bakiChuteFrontal-export4.png" type="Texture" id=50]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteFrontal/bakiChuteFrontal-export5.png" type="Texture" id=51]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteFrontal/bakiChuteFrontal-export3.png" type="Texture" id=52]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiJoelhada/bakiJoelhada-export4.png" type="Texture" id=53]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiJoelhada/bakiJoelhada-export1.png" type="Texture" id=54]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiJoelhada/bakiJoelhada-export6.png" type="Texture" id=55]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiJoelhada/bakiJoelhada-export7.png" type="Texture" id=56]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiCotovelada/bakiCotovelada-export2.png" type="Texture" id=57]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiCotovelada/bakiCotovelada-export7.png" type="Texture" id=58]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiDireto/bakiDireto-export7.png" type="Texture" id=59]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiDireto/bakiDireto-export1.png" type="Texture" id=60]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiDireto/bakiDireto-export8.png" type="Texture" id=61]
+[ext_resource path="res://Ritmic Fighter assets/Vida/vidas6.png" type="Texture" id=62]
+[ext_resource path="res://Ritmic Fighter assets/Vida/vidas1.png" type="Texture" id=63]
+[ext_resource path="res://Ritmic Fighter assets/Vida/vidas2.png" type="Texture" id=64]
+[ext_resource path="res://Ritmic Fighter assets/Vida/vidas3.png" type="Texture" id=65]
+[ext_resource path="res://Ritmic Fighter assets/Vida/vidas5.png" type="Texture" id=66]
+[ext_resource path="res://Ritmic Fighter assets/Vida/vidas7.png" type="Texture" id=67]
+[ext_resource path="res://Ritmic Fighter assets/Vida/vidas4.png" type="Texture" id=68]
+[ext_resource path="res://Ritmic Fighter assets/Vida/vidas8.png" type="Texture" id=69]
+[ext_resource path="res://Ritmic Fighter assets/Vida/vidas9.png" type="Texture" id=70]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/IconesPorradaria/IconeSoco.png" type="Texture" id=71]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/IconesPorradaria/IconeChute.png" type="Texture" id=72]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/IconesPorradaria/IconeSocoPressionado.png" type="Texture" id=73]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/IconesPorradaria/IconeChutePressionado.png" type="Texture" id=74]
+[ext_resource path="res://Ritmic Fighter assets/efeitos sonoros/porrada/Punch - Gaming Sound Effect (HD).ogg" type="AudioStream" id=75]
+[ext_resource path="res://Ritmic Fighter assets/Fontes/ghoulish_normal/Ghoulish.ttf" type="DynamicFontData" id=76]
+[ext_resource path="res://Ritmic Fighter assets/Fontes/Sinister-Fonts_Foul-Fiend/Foul Fiend.otf" type="DynamicFontData" id=77]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiDireto/bakiDireto-export2.png" type="Texture" id=78]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiDireto/bakiDireto-export3.png" type="Texture" id=79]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiDireto/bakiDireto-export5.png" type="Texture" id=80]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiDireto/bakiDireto-export6.png" type="Texture" id=81]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiDireto/bakiDireto-export4.png" type="Texture" id=82]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiDireto/bakiDireto-export9.png" type="Texture" id=83]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiJab/bakiJab-export1.png" type="Texture" id=84]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiJab/bakiJab-export2.png" type="Texture" id=85]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiJab/bakiJab-export5.png" type="Texture" id=86]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiJab/bakiJab-export6.png" type="Texture" id=87]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiJab/bakiJab-export4.png" type="Texture" id=88]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiJab/bakiJab-export3.png" type="Texture" id=89]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiParado/bakiIdle-export2.png" type="Texture" id=90]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiParado/bakiIdle-export3.png" type="Texture" id=91]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiParado/bakiIdle-export1.png" type="Texture" id=92]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiParado/bakiIdle-export10.png" type="Texture" id=93]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiParado/bakiIdle-export8.png" type="Texture" id=94]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiParado/bakiIdle-export7.png" type="Texture" id=95]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiParado/bakiIdle-export4.png" type="Texture" id=96]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiParado/bakiIdle-export9.png" type="Texture" id=97]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiParado/bakiIdle-export5.png" type="Texture" id=98]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/Movimentos/bakiParado/bakiIdle-export6.png" type="Texture" id=99]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiCotovelada/bakiCotovelada-export4.png" type="Texture" id=100]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiCotovelada/bakiCotovelada-export6.png" type="Texture" id=101]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiCotovelada/bakiCotovelada-export8.png" type="Texture" id=102]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiCotovelada/bakiCotovelada-export1.png" type="Texture" id=103]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiCotovelada/bakiCotovelada-export3.png" type="Texture" id=104]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiCotovelada/bakiCotovelada-export5.png" type="Texture" id=105]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChutassoCabeca/bakiChutassoCabeca-export2.png" type="Texture" id=106]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChutassoCabeca/bakiChutassoCabeca-export1.png" type="Texture" id=107]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChutassoCabeca/bakiChutassoCabeca-export5.png" type="Texture" id=108]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChutassoCabeca/bakiChutassoCabeca-export6.png" type="Texture" id=109]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChutassoCabeca/bakiChutassoCabeca-export3.png" type="Texture" id=110]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChutassoCabeca/bakiChutassoCabeca-export4.png" type="Texture" id=111]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChutassoCabeca/bakiChutassoCabeca-export9.png" type="Texture" id=112]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChutassoCabeca/bakiChutassoCabeca-export7.png" type="Texture" id=113]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChutassoCabeca/bakiChutassoCabeca-export8.png" type="Texture" id=114]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiEspancaCostela/bakiEspancaCostela-export1.png" type="Texture" id=115]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiEspancaCostela/bakiEspancaCostela-export4.png" type="Texture" id=116]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiEspancaCostela/bakiEspancaCostela-export5.png" type="Texture" id=117]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiEspancaCostela/bakiEspancaCostela-export3.png" type="Texture" id=118]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiEspancaCostela/bakiEspancaCostela-export2.png" type="Texture" id=119]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiEspancaCostela/bakiEspancaCostela-export7.png" type="Texture" id=120]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiEspancaCostela/bakiEspancaCostela-export6.png" type="Texture" id=121]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export13.png" type="Texture" id=122]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export17.png" type="Texture" id=123]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export21.png" type="Texture" id=124]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export24.png" type="Texture" id=125]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export8.png" type="Texture" id=126]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export11.png" type="Texture" id=127]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export19.png" type="Texture" id=128]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export12.png" type="Texture" id=129]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export18.png" type="Texture" id=130]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export4.png" type="Texture" id=131]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export3.png" type="Texture" id=132]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export20.png" type="Texture" id=133]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export23.png" type="Texture" id=134]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export6.png" type="Texture" id=135]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteNinja/bakiChuteNinja-export3.png" type="Texture" id=136]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export26.png" type="Texture" id=137]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export15.png" type="Texture" id=138]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export16.png" type="Texture" id=139]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export5.png" type="Texture" id=140]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export14.png" type="Texture" id=141]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export22.png" type="Texture" id=142]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export25.png" type="Texture" id=143]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export28.png" type="Texture" id=144]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export27.png" type="Texture" id=145]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export29.png" type="Texture" id=146]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export9.png" type="Texture" id=147]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteNinja/bakiChuteNinja-export4.png" type="Texture" id=148]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export7.png" type="Texture" id=149]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiApneia/bakiApneia-export10.png" type="Texture" id=150]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteNinja/bakiChuteNinja-export5.png" type="Texture" id=151]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteNinja/bakiChuteNinja-export1.png" type="Texture" id=152]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteNinja/bakiChuteNinja-export9.png" type="Texture" id=153]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteNinja/bakiChuteNinja-export6.png" type="Texture" id=154]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteNinja/bakiChuteNinja-export2.png" type="Texture" id=155]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteNinja/bakiChuteNinja-export7.png" type="Texture" id=156]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteNinja/bakiChuteNinja-export8.png" type="Texture" id=157]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteNinja/bakiChuteNinja-export10.png" type="Texture" id=158]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteBizarroido/bakiChuteBizarroido1-export1.png" type="Texture" id=159]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteBizarroido/bakiChuteBizarroido1-export2.png" type="Texture" id=160]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteBizarroido/bakiChuteBizarroido1-export3.png" type="Texture" id=161]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteBizarroido/bakiChuteBizarroido1-export4.png" type="Texture" id=162]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteBizarroido/bakiChuteBizarroido1-export8.png" type="Texture" id=163]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteBizarroido/bakiChuteBizarroido1-export9.png" type="Texture" id=164]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteBizarroido/bakiChuteBizarroido1-export7.png" type="Texture" id=165]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteBizarroido/bakiChuteBizarroido1-export12.png" type="Texture" id=166]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteBizarroido/bakiChuteBizarroido1-export6.png" type="Texture" id=167]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteBizarroido/bakiChuteBizarroido1-export10.png" type="Texture" id=168]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteBizarroido/bakiChuteBizarroido1-export11.png" type="Texture" id=169]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Baki/golpes/bakiChuteBizarroido/bakiChuteBizarroido1-export5.png" type="Texture" id=170]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 132 ), ExtResource( 131 ), ExtResource( 140 ), ExtResource( 135 ), ExtResource( 149 ), ExtResource( 126 ), ExtResource( 147 ), ExtResource( 150 ), ExtResource( 127 ), ExtResource( 129 ), ExtResource( 122 ), ExtResource( 141 ), ExtResource( 138 ), ExtResource( 139 ), ExtResource( 123 ), ExtResource( 130 ), ExtResource( 128 ), ExtResource( 133 ), ExtResource( 124 ), ExtResource( 142 ), ExtResource( 134 ), ExtResource( 125 ), ExtResource( 143 ), ExtResource( 137 ), ExtResource( 145 ) ],
+"loop": true,
+"name": "meio",
+"speed": 25.0
+} ]
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 63 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 68 ), ExtResource( 66 ), ExtResource( 62 ), ExtResource( 67 ), ExtResource( 69 ), ExtResource( 70 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=3]
+extents = Vector2( 4.26312, 71.9645 )
+
+[sub_resource type="Animation" id=4]
+length = 0.6
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 47 ), ExtResource( 42 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 41 ), ExtResource( 43 ), ExtResource( 44 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 15 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+length = 0.6
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 47 ), ExtResource( 42 ), ExtResource( 45 ), ExtResource( 46 ), ExtResource( 41 ), ExtResource( 43 ), ExtResource( 44 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 15 ) ]
+}
+
+[sub_resource type="Animation" id=6]
+resource_name = "ataque1"
+length = 0.2
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.04, 0.07, 0.11, 0.15, 0.2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 84 ), ExtResource( 85 ), ExtResource( 89 ), ExtResource( 88 ), ExtResource( 86 ), ExtResource( 87 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 25, 16 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("socoDireita/socoDireitaShape:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -88, 0 ), Vector2( 0, 0 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=7]
+resource_name = "ataque2"
+length = 0.3
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 30, 17 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.04, 0.08, 0.12, 0.15, 0.19, 0.23, 0.26, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 60 ), ExtResource( 78 ), ExtResource( 79 ), ExtResource( 82 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 59 ), ExtResource( 61 ), ExtResource( 83 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.19 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("socoDireita/socoDireitaShape:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -88, 0 ), Vector2( 0, 0 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=8]
+resource_name = "ataque3"
+length = 0.25
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 15, 17 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.04, 0.08, 0.12, 0.16, 0.2, 0.25 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 54 ), ExtResource( 30 ), ExtResource( 35 ), ExtResource( 53 ), ExtResource( 36 ), ExtResource( 55 ), ExtResource( 56 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("chuteDireita/chuteDireitaShape:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -88, 0 ), Vector2( 0, 0 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=9]
+resource_name = "ataque4"
+length = 0.35
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.03, 0.06, 0.1, 0.13, 0.15, 0.2, 0.25, 0.28, 0.32, 0.35 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 20 ), ExtResource( 21 ), ExtResource( 19 ), ExtResource( 24 ), ExtResource( 23 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 22 ), ExtResource( 3 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 30, 18 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("socoDireita/socoDireitaShape:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -88, 0 ), Vector2( 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=10]
+resource_name = "ataque5"
+length = 0.25
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.05, 0.08, 0.11, 0.15, 0.2, 0.25 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 115 ), ExtResource( 119 ), ExtResource( 118 ), ExtResource( 116 ), ExtResource( 117 ), ExtResource( 121 ), ExtResource( 120 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("socoDireita/socoDireitaShape:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -88, 0 ), Vector2( 0, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.22 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Sprite:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 22, 18 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("Sprite:flip_h")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=11]
+resource_name = "ataque6"
+length = 0.3
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.04, 0.09, 0.14, 0.18, 0.22, 0.26, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 103 ), ExtResource( 57 ), ExtResource( 104 ), ExtResource( 100 ), ExtResource( 105 ), ExtResource( 101 ), ExtResource( 58 ), ExtResource( 102 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 23, 16 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("socoDireita/socoDireitaShape:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -88, 0 ), Vector2( 0, 0 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.23 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=12]
+length = 0.4
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.04, 0.09, 0.12, 0.17, 0.22, 0.27, 0.3, 0.35, 0.4 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 4 ), ExtResource( 5 ), ExtResource( 18 ), ExtResource( 14 ), ExtResource( 16 ), ExtResource( 6 ), ExtResource( 7 ), ExtResource( 15 ), ExtResource( 17 ), ExtResource( 29 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 15, 8 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("porradaGlobalDireita/CollisionShape2D:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 0.26 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -88, 0 ), Vector2( 0, 0 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("porradaGlobalDireita/CollisionShape2D:disabled")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 0.26 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=13]
+length = 0.4
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.03, 0.06, 0.1, 0.15, 0.2, 0.25, 0.3, 0.35, 0.4 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 152 ), ExtResource( 155 ), ExtResource( 136 ), ExtResource( 148 ), ExtResource( 151 ), ExtResource( 154 ), ExtResource( 156 ), ExtResource( 157 ), ExtResource( 153 ), ExtResource( 158 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 10, 13 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("porradaGlobalDireita/CollisionShape2D:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 0.25 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("porradaGlobalDireita/CollisionShape2D:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 0.25 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -80, 0 ), Vector2( 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=14]
+length = 0.4
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.03, 0.07, 0.1, 0.14, 0.17, 0.21, 0.25, 0.29, 0.32, 0.36, 0.4 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 159 ), ExtResource( 160 ), ExtResource( 161 ), ExtResource( 162 ), ExtResource( 170 ), ExtResource( 167 ), ExtResource( 165 ), ExtResource( 163 ), ExtResource( 164 ), ExtResource( 168 ), ExtResource( 169 ), ExtResource( 166 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 10, 13 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("porradaGlobalDireita/CollisionShape2D:position")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 0.25 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -80, 0 ), Vector2( 0, 0 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("porradaGlobalDireita/CollisionShape2D:disabled")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 0.25 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+
+[sub_resource type="Animation" id=15]
+length = 0.25
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.05, 0.1, 0.15, 0.2, 0.25 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 48 ), ExtResource( 49 ), ExtResource( 52 ), ExtResource( 50 ), ExtResource( 51 ), ExtResource( 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 18, 16 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("chuteDireita/chuteDireitaShape:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -88, 0 ), Vector2( 0, 0 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=16]
+length = 0.3
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.04, 0.08, 0.11, 0.15, 0.19, 0.23, 0.27, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 107 ), ExtResource( 106 ), ExtResource( 110 ), ExtResource( 111 ), ExtResource( 108 ), ExtResource( 109 ), ExtResource( 113 ), ExtResource( 114 ), ExtResource( 112 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 30, 10 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.19 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("chuteDireita/chuteDireitaShape:position")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -88, 0 ), Vector2( 0, -135 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("porradaGlobalDireita/CollisionShape2D:disabled")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=17]
+resource_name = "ataqueDiagonalE1"
+length = 0.3
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:flip_h")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( -31, 10 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.04, 0.08, 0.11, 0.15, 0.19, 0.23, 0.27, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 107 ), ExtResource( 106 ), ExtResource( 110 ), ExtResource( 111 ), ExtResource( 108 ), ExtResource( 109 ), ExtResource( 113 ), ExtResource( 114 ), ExtResource( 112 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("porradaGlobalDireita/CollisionShape2D:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("chuteDireita/chuteDireitaShape:position")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -93, 0 ), Vector2( -181, -135 ) ]
+}
+
+[sub_resource type="Animation" id=18]
+resource_name = "ataqueE1"
+length = 0.2
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.04, 0.07, 0.11, 0.15, 0.2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 84 ), ExtResource( 85 ), ExtResource( 89 ), ExtResource( 88 ), ExtResource( 86 ), ExtResource( 87 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( -25, 16 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("socoDireita/socoDireitaShape:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -93, 0 ), Vector2( -181, 0 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("porradaGlobalDireita/CollisionShape2D:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=19]
+resource_name = "ataqueE2"
+length = 0.3
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.04, 0.08, 0.12, 0.15, 0.19, 0.23, 0.26, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 60 ), ExtResource( 78 ), ExtResource( 79 ), ExtResource( 82 ), ExtResource( 80 ), ExtResource( 81 ), ExtResource( 59 ), ExtResource( 61 ), ExtResource( 83 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( -31, 17 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("socoDireita/socoDireitaShape:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -93, 0 ), Vector2( -181, 0 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("porradaGlobalDireita/CollisionShape2D:disabled")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=20]
+resource_name = "ataqueE3"
+length = 0.25
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.04, 0.08, 0.12, 0.16, 0.2, 0.25 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 54 ), ExtResource( 30 ), ExtResource( 35 ), ExtResource( 53 ), ExtResource( 36 ), ExtResource( 55 ), ExtResource( 56 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( -19, 17 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("socoDireita/socoDireitaShape:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -93, 0 ), Vector2( -181, 0 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("porradaGlobalDireita/CollisionShape2D:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=21]
+resource_name = "ataqueE4"
+length = 0.35
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.03, 0.06, 0.1, 0.13, 0.15, 0.2, 0.25, 0.28, 0.32, 0.35 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 20 ), ExtResource( 21 ), ExtResource( 19 ), ExtResource( 24 ), ExtResource( 23 ), ExtResource( 25 ), ExtResource( 28 ), ExtResource( 26 ), ExtResource( 27 ), ExtResource( 22 ), ExtResource( 3 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( -35, 18 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("socoDireita/socoDireitaShape:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -93, 0 ), Vector2( -181, 0 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("porradaGlobalDireita/CollisionShape2D:disabled")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=22]
+resource_name = "ataqueE5"
+length = 0.25
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.05, 0.08, 0.11, 0.15, 0.2, 0.25 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 115 ), ExtResource( 119 ), ExtResource( 118 ), ExtResource( 116 ), ExtResource( 117 ), ExtResource( 121 ), ExtResource( 120 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( -22, 18 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("socoDireita/socoDireitaShape:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -93, 0 ), Vector2( -181, 0 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("porradaGlobalDireita/CollisionShape2D:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=23]
+resource_name = "ataqueE6"
+length = 0.3
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.04, 0.09, 0.14, 0.18, 0.22, 0.26, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 103 ), ExtResource( 57 ), ExtResource( 104 ), ExtResource( 100 ), ExtResource( 105 ), ExtResource( 101 ), ExtResource( 58 ), ExtResource( 102 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( -21, 16 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("socoDireita/socoDireitaShape:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -93, 0 ), Vector2( -181, 0 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.15 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("porradaGlobalDireita/CollisionShape2D:disabled")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=24]
+length = 0.2
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.03, 0.07, 0.11, 0.15, 0.2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 8 ), ExtResource( 9 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 13 ), ExtResource( 12 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:flip_h")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 15, 10 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("porradaGlobalDireita/CollisionShape2D:position")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("porradaGlobalDireita/CollisionShape2D:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, true ]
+}
+
+[sub_resource type="Animation" id=25]
+length = 0.12
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.04, 0.08, 0.12 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 31 ), ExtResource( 34 ), ExtResource( 32 ), ExtResource( 33 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( -5, 17 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=26]
+length = 0.12
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.04, 0.08, 0.12 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 31 ), ExtResource( 34 ), ExtResource( 32 ), ExtResource( 33 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 17 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=27]
+length = 0.9
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 92 ), ExtResource( 90 ), ExtResource( 91 ), ExtResource( 96 ), ExtResource( 98 ), ExtResource( 99 ), ExtResource( 95 ), ExtResource( 94 ), ExtResource( 97 ), ExtResource( 93 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 12, 17 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("punchSocoSom:playing")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0.1 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("punchChuteSom:playing")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0.2 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("punchDanoSom:playing")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0.1 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("Sprite:flip_h")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=28]
+length = 0.9
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:flip_h")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 92 ), ExtResource( 90 ), ExtResource( 91 ), ExtResource( 96 ), ExtResource( 98 ), ExtResource( 99 ), ExtResource( 95 ), ExtResource( 94 ), ExtResource( 97 ), ExtResource( 93 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 0, 17 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=29]
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 144 ), ExtResource( 146 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector2( 28, 19 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:flip_h")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=30]
+length = 0.01
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("socoDireita/socoDireitaShape:disabled")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("chuteDireita/chuteDireitaShape:disabled")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("porradaGlobalDireita/CollisionShape2D:disabled")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="RectangleShape2D" id=31]
+
+[sub_resource type="RectangleShape2D" id=32]
+extents = Vector2( 7.82813, 10 )
+
+[sub_resource type="RectangleShape2D" id=33]
+extents = Vector2( 0.569275, 10 )
+
+[sub_resource type="DynamicFont" id=34]
+font_data = ExtResource( 77 )
+
+[sub_resource type="DynamicFont" id=35]
+font_data = ExtResource( 77 )
+
+[sub_resource type="DynamicFont" id=36]
+font_data = ExtResource( 77 )
+
+[sub_resource type="RectangleShape2D" id=37]
+extents = Vector2( 5.5697, 70.6518 )
+
+[sub_resource type="RectangleShape2D" id=38]
+extents = Vector2( 5.73663, 70.4728 )
+
+[sub_resource type="RectangleShape2D" id=39]
+extents = Vector2( 61.0847, 10 )
+
+[sub_resource type="DynamicFont" id=40]
+size = 50
+font_data = ExtResource( 76 )
+
+[sub_resource type="DynamicFont" id=41]
+size = 25
+font_data = ExtResource( 76 )
+
+[sub_resource type="DynamicFont" id=42]
+size = 35
+font_data = ExtResource( 76 )
+
+[node name="Baki" type="KinematicBody2D"]
+position = Vector2( 570.77, 202.488 )
+collision_mask = 31
+script = ExtResource( 2 )
+
+[node name="BakiEventoApneia" type="AnimatedSprite" parent="."]
+visible = false
+position = Vector2( -28, 20 )
+scale = Vector2( 1.1, 1.1 )
+frames = SubResource( 1 )
+animation = "meio"
+frame = 3
+playing = true
+flip_h = true
+
+[node name="VIDA" type="AnimatedSprite" parent="."]
+position = Vector2( -4, -64 )
+frames = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( -35, 18 )
+scale = Vector2( 1.1, 1.1 )
+texture = ExtResource( 20 )
+flip_h = true
+
+[node name="murro na cara" parent="Sprite" instance=ExtResource( 37 )]
+position = Vector2( 48.6932, -34.5471 )
+scale = Vector2( 0.24, 0.24 )
+lifetime = 2.0
+
+[node name="murro na caraEsquerda" parent="Sprite" instance=ExtResource( 40 )]
+position = Vector2( -50.0268, -32.9471 )
+scale = Vector2( 0.24, 0.24 )
+lifetime = 2.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -2.35724, 29.338 )
+shape = SubResource( 3 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/andando = SubResource( 4 )
+anims/andandoE = SubResource( 5 )
+anims/ataque1 = SubResource( 6 )
+anims/ataque2 = SubResource( 7 )
+anims/ataque3 = SubResource( 8 )
+anims/ataque4 = SubResource( 9 )
+anims/ataque5 = SubResource( 10 )
+anims/ataque6 = SubResource( 11 )
+anims/ataqueCarregado1 = SubResource( 12 )
+anims/ataqueCarregado2 = SubResource( 13 )
+anims/ataqueCarregado3 = SubResource( 14 )
+anims/ataqueChute1 = SubResource( 15 )
+anims/ataqueDiagonal1 = SubResource( 16 )
+anims/ataqueDiagonalE1 = SubResource( 17 )
+anims/ataqueE1 = SubResource( 18 )
+anims/ataqueE2 = SubResource( 19 )
+anims/ataqueE3 = SubResource( 20 )
+anims/ataqueE4 = SubResource( 21 )
+anims/ataqueE5 = SubResource( 22 )
+anims/ataqueE6 = SubResource( 23 )
+anims/concentradoCarregando = SubResource( 24 )
+anims/hit = SubResource( 25 )
+anims/hitE = SubResource( 26 )
+anims/parado = SubResource( 27 )
+anims/paradoE = SubResource( 28 )
+anims/parouApneia = SubResource( 29 )
+
+[node name="ControleColisaoFdase" type="AnimationPlayer" parent="."]
+anims/controle = SubResource( 30 )
+
+[node name="Timer" type="Timer" parent="."]
+
+[node name="DelayGolpe" type="Timer" parent="."]
+wait_time = 0.25
+
+[node name="Hitboxes" type="Node" parent="."]
+
+[node name="socoDireita" type="Area2D" parent="."]
+position = Vector2( 88.025, 23.311 )
+
+[node name="socoDireitaShape" type="CollisionShape2D" parent="socoDireita"]
+position = Vector2( -93, 0 )
+scale = Vector2( 0.05, 1 )
+shape = SubResource( 31 )
+
+[node name="chuteDireita" type="Area2D" parent="."]
+position = Vector2( 88.025, 77.958 )
+
+[node name="chuteDireitaShape" type="CollisionShape2D" parent="chuteDireita"]
+position = Vector2( -88, 0 )
+scale = Vector2( 0.05, 1 )
+shape = SubResource( 32 )
+disabled = true
+
+[node name="porradaGlobalDireita" type="Area2D" parent="."]
+position = Vector2( 88.025, 50 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="porradaGlobalDireita"]
+position = Vector2( -84.6154, 0 )
+shape = SubResource( 33 )
+disabled = true
+
+[node name="Hitboxes2" type="Node" parent="."]
+
+[node name="ficarPorCimaDoSpawn" type="CanvasLayer" parent="."]
+layer = 99
+offset = Vector2( -333.673, -233.756 )
+scale = Vector2( 2, 2 )
+transform = Transform2D( 2, 0, 0, 2, -333.673, -233.756 )
+
+[node name="MenuPause" type="Control" parent="ficarPorCimaDoSpawn"]
+pause_mode = 2
+visible = false
+margin_left = 490.502
+margin_top = 377.005
+margin_right = 490.502
+margin_bottom = 377.005
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="resume" type="Button" parent="ficarPorCimaDoSpawn/MenuPause"]
+margin_left = -69.0
+margin_top = -93.3333
+margin_right = 45.0
+margin_bottom = -56.3333
+custom_fonts/font = SubResource( 34 )
+text = "Resume"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="resetar" type="Button" parent="ficarPorCimaDoSpawn/MenuPause"]
+margin_left = -69.0
+margin_top = -52.6667
+margin_right = 45.0
+margin_bottom = -15.6667
+custom_fonts/font = SubResource( 35 )
+text = "Reset"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="quitar2" type="Button" parent="ficarPorCimaDoSpawn/MenuPause"]
+margin_left = -39.6667
+margin_top = -12.3333
+margin_right = 18.3333
+margin_bottom = 24.6667
+custom_fonts/font = SubResource( 36 )
+text = "Quit"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MenuDePausa" type="Node" parent="."]
+
+[node name="pauseBotao" type="Panel" parent="."]
+margin_left = 271.749
+margin_top = -173.493
+margin_right = 299.749
+margin_bottom = -150.493
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="pauseBotao"]
+margin_left = 8.35962
+margin_top = 5.87436
+margin_right = 20.3596
+margin_bottom = 19.8744
+text = "l l"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PauseFodase" type="TextureButton" parent="."]
+margin_left = 255.0
+margin_top = -186.0
+margin_right = 314.0
+margin_bottom = -139.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="MenuDePausa2" type="Node" parent="."]
+
+[node name="AreavidaE" type="Area2D" parent="."]
+position = Vector2( -15, 31 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AreavidaE"]
+shape = SubResource( 37 )
+
+[node name="AreavidaD" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AreavidaD"]
+position = Vector2( 10, 30.7497 )
+shape = SubResource( 38 )
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2( 0, -25 )
+current = true
+zoom = Vector2( 0.5, 0.5 )
+smoothing_enabled = true
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="CanvasLayer"]
+position = Vector2( 1280, 479 )
+scale = Vector2( -0.8, 0.8 )
+normal = ExtResource( 71 )
+pressed = ExtResource( 73 )
+
+[node name="botaoDeSocoD" type="Timer" parent="CanvasLayer/TouchScreenButton"]
+wait_time = 0.05
+
+[node name="DiagonalAtack" type="TouchScreenButton" parent="CanvasLayer"]
+visible = false
+position = Vector2( 1037.95, 226.892 )
+scale = Vector2( 0.8, 0.8 )
+normal = ExtResource( 72 )
+pressed = ExtResource( 74 )
+
+[node name="botaoDeSocoDiagonal" type="Timer" parent="CanvasLayer/DiagonalAtack"]
+wait_time = 0.05
+
+[node name="TouchScreenButton3" type="TouchScreenButton" parent="CanvasLayer"]
+position = Vector2( 2.563e-05, 478 )
+scale = Vector2( 0.8, 0.8 )
+normal = ExtResource( 71 )
+pressed = ExtResource( 73 )
+
+[node name="botaoDeChuteD" type="Timer" parent="CanvasLayer/TouchScreenButton3"]
+wait_time = 0.05
+
+[node name="DiagonalAtackE" type="TouchScreenButton" parent="CanvasLayer"]
+visible = false
+position = Vector2( 0.233152, 231.209 )
+scale = Vector2( 0.8, 0.8 )
+normal = ExtResource( 72 )
+pressed = ExtResource( 74 )
+
+[node name="botaoDeDiagonalE" type="Timer" parent="CanvasLayer/DiagonalAtackE"]
+wait_time = 0.05
+
+[node name="punchSocoSom" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 75 )
+volume_db = -15.0
+
+[node name="punchDanoSom" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 75 )
+volume_db = -15.0
+pitch_scale = 1.2
+
+[node name="punchChuteSom" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 75 )
+volume_db = -15.0
+pitch_scale = 0.8
+
+[node name="sensor" type="Area2D" parent="."]
+position = Vector2( 87, 95 )
+
+[node name="Area2D" type="CollisionShape2D" parent="sensor"]
+position = Vector2( -7.84888, -0.336578 )
+shape = SubResource( 39 )
+
+[node name="sensor2" type="Area2D" parent="."]
+position = Vector2( -86, 95 )
+
+[node name="Area2D" type="CollisionShape2D" parent="sensor2"]
+position = Vector2( 2.15112, -0.336578 )
+shape = SubResource( 39 )
+
+[node name="sinal" type="Label" parent="."]
+visible = false
+modulate = Color( 1, 0.984314, 0, 1 )
+margin_left = -3.05865
+margin_top = -56.0744
+margin_right = 0.941345
+margin_bottom = -42.0744
+text = "!!!"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Pontuacao" type="RichTextLabel" parent="."]
+margin_left = -296.0
+margin_top = -188.0
+margin_right = -89.0
+margin_bottom = -65.0
+custom_fonts/normal_font = SubResource( 40 )
+custom_colors/default_color = Color( 0.752941, 0.752941, 0.752941, 1 )
+meta_underlined = false
+text = "0"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="combo" type="RichTextLabel" parent="Pontuacao"]
+modulate = Color( 0.752941, 0.752941, 0.752941, 1 )
+margin_left = 1.0
+margin_top = 45.0
+margin_right = 21.0
+margin_bottom = 84.0
+custom_fonts/normal_font = SubResource( 41 )
+text = "x"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="combo2" type="RichTextLabel" parent="Pontuacao"]
+modulate = Color( 0.752941, 0.752941, 0.752941, 1 )
+margin_left = 19.0
+margin_top = 39.0
+margin_right = 107.0
+margin_bottom = 85.0
+custom_fonts/normal_font = SubResource( 42 )
+text = "1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]
+[connection signal="timeout" from="DelayGolpe" to="." method="_on_DelayGolpe_timeout"]
+[connection signal="body_entered" from="socoDireita" to="." method="_on_socoDireita_body_entered"]
+[connection signal="body_entered" from="chuteDireita" to="." method="_on_chuteDireita_body_entered"]
+[connection signal="body_entered" from="porradaGlobalDireita" to="." method="_on_porradaGlobalDireita_body_entered"]
+[connection signal="pressed" from="ficarPorCimaDoSpawn/MenuPause/resume" to="." method="_on_resume_pressed"]
+[connection signal="pressed" from="ficarPorCimaDoSpawn/MenuPause/resetar" to="." method="_on_resetar_pressed"]
+[connection signal="pressed" from="ficarPorCimaDoSpawn/MenuPause/quitar2" to="." method="_on_quitar2_pressed"]
+[connection signal="pressed" from="PauseFodase" to="." method="_on_PauseFodase_pressed"]
+[connection signal="body_entered" from="AreavidaE" to="." method="_on_AreavidaE_body_entered"]
+[connection signal="body_entered" from="AreavidaD" to="." method="_on_AreavidaD_body_entered"]
+[connection signal="pressed" from="CanvasLayer/TouchScreenButton" to="." method="_on_TouchScreenButton_pressed"]
+[connection signal="timeout" from="CanvasLayer/TouchScreenButton/botaoDeSocoD" to="." method="_on_botaoDeSocoD_timeout"]
+[connection signal="pressed" from="CanvasLayer/DiagonalAtack" to="." method="_on_DiagonalAtack_pressed"]
+[connection signal="timeout" from="CanvasLayer/DiagonalAtack/botaoDeSocoDiagonal" to="." method="_on_botaoDeSocoDiagonal_timeout"]
+[connection signal="pressed" from="CanvasLayer/TouchScreenButton3" to="." method="_on_TouchScreenButton3_pressed"]
+[connection signal="timeout" from="CanvasLayer/TouchScreenButton3/botaoDeChuteD" to="." method="_on_botaoDeChuteD_timeout"]
+[connection signal="pressed" from="CanvasLayer/DiagonalAtackE" to="." method="_on_DiagonalAtackE_pressed"]
+[connection signal="timeout" from="CanvasLayer/DiagonalAtackE/botaoDeDiagonalE" to="." method="_on_botaoDeDiagonalE_timeout"]
+[connection signal="body_entered" from="sensor" to="." method="_on_sensor_body_entered"]
+[connection signal="body_exited" from="sensor" to="." method="_on_sensor_body_exited"]
+[connection signal="body_entered" from="sensor2" to="." method="_on_sensor_body_entered"]
+[connection signal="body_exited" from="sensor2" to="." method="_on_sensor_body_exited"]

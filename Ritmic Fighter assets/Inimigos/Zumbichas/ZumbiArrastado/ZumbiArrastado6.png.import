@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/ZumbiArrastado6.png-13b7ea4001393fcb89e9896e1f3dd89f.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Ritmic Fighter assets/Inimigos/Zumbichas/ZumbiArrastado/ZumbiArrastado6.png"
+dest_files=[ "res://.import/ZumbiArrastado6.png-13b7ea4001393fcb89e9896e1f3dd89f.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0

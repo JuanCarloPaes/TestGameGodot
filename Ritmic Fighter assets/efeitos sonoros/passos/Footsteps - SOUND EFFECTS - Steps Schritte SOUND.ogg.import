@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Footsteps - SOUND EFFECTS - Steps Schritte SOUND.ogg-1f966a23e6897b3eb7c7dbda4b6c6b99.oggstr"
+
+[deps]
+
+source_file="res://Ritmic Fighter assets/efeitos sonoros/passos/Footsteps - SOUND EFFECTS - Steps Schritte SOUND.ogg"
+dest_files=[ "res://.import/Footsteps - SOUND EFFECTS - Steps Schritte SOUND.ogg-1f966a23e6897b3eb7c7dbda4b6c6b99.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

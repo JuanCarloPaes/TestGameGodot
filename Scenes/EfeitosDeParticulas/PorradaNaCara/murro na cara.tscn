@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Ritmic Fighter assets/particulas/particula.png" type="Texture" id=1]
+
+[sub_resource type="ParticlesMaterial" id=1]
+flag_rotate_y = true
+flag_disable_z = true
+spread = 123.6
+gravity = Vector3( -98, 49, 0 )
+initial_velocity = 75.0
+angular_velocity = 50.0
+orbit_velocity = 0.0
+orbit_velocity_random = 0.0
+linear_accel = 74.0
+linear_accel_random = 1.0
+radial_accel = 31.0
+radial_accel_random = 1.0
+damping = 74.0
+damping_random = 1.0
+scale = 0.4
+scale_random = 1.0
+
+[node name="murro na cara" type="Particles2D"]
+modulate = Color( 1, 0, 0, 1 )
+position = Vector2( -112, -30 )
+scale = Vector2( 0.4, 0.4 )
+emitting = false
+amount = 64
+lifetime = 4.0
+one_shot = true
+speed_scale = 5.0
+explosiveness = 0.92
+randomness = 1.0
+process_material = SubResource( 1 )
+texture = ExtResource( 1 )

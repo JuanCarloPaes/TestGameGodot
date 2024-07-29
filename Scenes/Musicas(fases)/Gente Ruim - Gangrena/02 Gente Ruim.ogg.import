@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/02 Gente Ruim.ogg-5e619316c2ea8bb7b116e47233d3347a.oggstr"
+
+[deps]
+
+source_file="res://Scenes/Musicas(fases)/Gente Ruim - Gangrena/02 Gente Ruim.ogg"
+dest_files=[ "res://.import/02 Gente Ruim.ogg-5e619316c2ea8bb7b116e47233d3347a.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

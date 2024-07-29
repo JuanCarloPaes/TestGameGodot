@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Max Anarchy OST   Over In A Flash.ogg-b9bc3d494074aba494644e073bb777c1.oggstr"
+
+[deps]
+
+source_file="res://Scenes/Musicas(fases)/OverInaFlashMAXANARCHY/Max Anarchy OST   Over In A Flash.ogg"
+dest_files=[ "res://.import/Max Anarchy OST   Over In A Flash.ogg-b9bc3d494074aba494644e073bb777c1.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

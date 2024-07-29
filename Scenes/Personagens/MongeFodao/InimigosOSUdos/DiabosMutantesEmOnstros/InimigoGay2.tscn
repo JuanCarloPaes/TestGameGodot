@@ -1,0 +1,104 @@
+[gd_scene load_steps=19 format=2]
+
+[ext_resource path="res://Scenes/Personagens/MongeFodao/InimigosOSUdos/InimigoGay2.gd" type="Script" id=1]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/IconesPorradaria/IconeChute.png" type="Texture" id=2]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/hell-gato/hell-gato-1.png" type="Texture" id=3]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/hell-gato/hell-gato-2.png" type="Texture" id=4]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/hell-gato/hell-gato-3.png" type="Texture" id=5]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/hell-gato/hell-gato-4.png" type="Texture" id=6]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/hell-gato/hell-gat--IDLE.png" type="Texture" id=7]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/ghoul pegando fogo/morrendo/enemy-death2.png" type="Texture" id=10]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/ghoul pegando fogo/morrendo/enemy-death3.png" type="Texture" id=11]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/ghoul pegando fogo/morrendo/enemy-death4.png" type="Texture" id=12]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/ghoul pegando fogo/morrendo/enemy-death5.png" type="Texture" id=13]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/ghoul pegando fogo/morrendo/enemy-death6.png" type="Texture" id=14]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/ghoul pegando fogo/morrendo/enemy-death7.png" type="Texture" id=15]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/ghoul pegando fogo/morrendo/enemy-death8.png" type="Texture" id=16]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/ghoul pegando fogo/morrendo/enemy-death9.png" type="Texture" id=17]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 7 ), ExtResource( 3 ), ExtResource( 4 ), ExtResource( 5 ), ExtResource( 6 ) ],
+"loop": true,
+"name": "an",
+"speed": 12.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 16.7553, 40.7592 )
+
+[sub_resource type="Animation" id=3]
+resource_name = "morrendo"
+length = 0.7
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 10 ), ExtResource( 11 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 14 ), ExtResource( 15 ), ExtResource( 16 ), ExtResource( 17 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:scale")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.02 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 3, 3 ), Vector2( 2, 2 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("Sprite:position")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0.0124221, 0.02 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -12.762, -46.814 ), Vector2( -12.762, -22.814 ) ]
+}
+
+[node name="InimigoGay2" type="KinematicBody2D"]
+position = Vector2( 537.699, 197.6 )
+collision_layer = 2
+collision_mask = 3
+script = ExtResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -12.7621, -27.8139 )
+scale = Vector2( 1.5, 1.5 )
+frames = SubResource( 1 )
+animation = "an"
+frame = 3
+playing = true
+flip_h = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -10.3849, -77.8858 )
+scale = Vector2( 1.336, 3 )
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+visible = false
+modulate = Color( 0.101961, 0, 1, 1 )
+position = Vector2( -12.762, -46.723 )
+scale = Vector2( 3, 3 )
+texture = ExtResource( 10 )
+flip_h = true
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/morrendo = SubResource( 3 )
+
+[node name="Icone" type="Sprite" parent="."]
+position = Vector2( -9, -70 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 2 )

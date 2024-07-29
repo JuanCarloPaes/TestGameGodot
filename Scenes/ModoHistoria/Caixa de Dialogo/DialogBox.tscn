@@ -1,0 +1,110 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://Ritmic Fighter assets/ModoHistoria/dialog-background.png" type="Texture" id=1]
+[ext_resource path="res://Ritmic Fighter assets/Fontes/Sinister-Fonts_Foul-Fiend/Foul Fiend.otf" type="DynamicFontData" id=2]
+[ext_resource path="res://Ritmic Fighter assets/ModoHistoria/next-indicator.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/ModoHistoria/Caixa de Dialogo/DialogBox.gd" type="Script" id=4]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 2 )
+
+[sub_resource type="Animation" id=2]
+resource_name = "IDLE"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1185.23, 638.235 ), Vector2( 1185.23, 652.348 ) ]
+}
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -3.16541
+margin_top = -3.16544
+margin_right = -3.16541
+margin_bottom = -3.16541
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="DialogBox" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="DialogBox"]
+modulate = Color( 1, 0.435294, 0.435294, 1 )
+anchor_left = 16.365
+anchor_top = 18.012
+anchor_right = 16.365
+anchor_bottom = 18.012
+margin_left = -587.6
+margin_top = -254.48
+margin_right = 587.4
+margin_bottom = -39.48
+texture = ExtResource( 1 )
+expand = true
+stretch_mode = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="DialogBox"]
+anchor_left = 2.15
+anchor_top = 12.325
+anchor_right = 30.7
+anchor_bottom = 16.375
+margin_left = 30.0
+margin_top = -5.0
+margin_right = -30.0
+margin_bottom = 5.0
+custom_fonts/normal_font = SubResource( 1 )
+custom_colors/default_color = Color( 0.0784314, 0.0784314, 0.0784314, 1 )
+bbcode_enabled = true
+bbcode_text = "Sailor moon e foda meu irmao "
+text = "Sailor moon e foda meu irmao "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tween" type="Tween" parent="DialogBox"]
+
+[node name="next-indicator" type="Sprite" parent="DialogBox"]
+position = Vector2( 1185.23, 638.379 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 3 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DialogBox/next-indicator"]
+autoplay = "IDLE"
+anims/IDLE = SubResource( 2 )
+
+[node name="ControleVeloz" type="Timer" parent="DialogBox"]
+
+[node name="Sprite" type="Sprite" parent="DialogBox"]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DialogBox/Sprite"]
+
+[node name="TextureButton" type="TextureButton" parent="DialogBox"]
+visible = false
+margin_left = 66.0
+margin_top = 468.0
+margin_right = 1244.0
+margin_bottom = 680.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="tween_completed" from="DialogBox/Tween" to="DialogBox" method="_on_Tween_tween_completed"]
+[connection signal="timeout" from="DialogBox/ControleVeloz" to="DialogBox" method="_on_ControleVeloz_timeout"]
+[connection signal="pressed" from="DialogBox/TextureButton" to="DialogBox" method="_on_TextureButton_pressed"]

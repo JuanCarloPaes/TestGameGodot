@@ -1,0 +1,147 @@
+[gd_scene load_steps=38 format=2]
+
+[ext_resource path="res://Scenes/Personagens/MongeFodao/InimigosOSUdos/inimigoBandidoEsquerda.gd" type="Script" id=1]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/desviando/claudeDesviandoSco/claude1desviandoSoco/claude1desviandosoco3.png" type="Texture" id=2]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/desviando/claudeDesviandoSco/claude1desviandoSoco/claude1desviandosoco2.png" type="Texture" id=3]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/desviando/claudeDesviandoSco/claude1desviandoSoco/claude1desviandosoco4.png" type="Texture" id=4]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/machucado/claudeMorrendo/claude1morrendo/claudemorrendo3.png" type="Texture" id=5]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/desviando/claudeDesviandoSco/claude1desviandoSoco/claude1desviandosoco1.png" type="Texture" id=6]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/desviando/claudeDesviandoSco/claude1desviandoSoco/claude1desviandosoco7.png" type="Texture" id=7]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/desviando/claudeDesviandoSco/claude1desviandoSoco/claude1desviandosoco5.png" type="Texture" id=8]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/machucado/claudeMorrendo/claude1morrendo/claudemorrendo4.png" type="Texture" id=9]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/correndo/claude1correndo/claudecorrendo4.png" type="Texture" id=10]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/correndo/claude1correndo/claudecorrendo3.png" type="Texture" id=11]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/correndo/claude1correndo/claudecorrendo5.png" type="Texture" id=12]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/correndo/claude1correndo/claudecorrendo6.png" type="Texture" id=13]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/IconesPorradaria/IconeChute.png" type="Texture" id=14]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/correndo/claude1correndo/claudecorrendo1.png" type="Texture" id=15]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/correndo/claude1correndo/claudecorrendo2.png" type="Texture" id=16]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/correndo/claude1correndo/claudecorrendo8.png" type="Texture" id=17]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/correndo/claude1correndo/claudecorrendo7.png" type="Texture" id=18]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/atacando/soco/claudeTipo1Soco1/claude1soco1.png" type="Texture" id=19]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/atacando/soco/claudeTipo1Soco1/claude1soco3.png" type="Texture" id=20]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/atacando/soco/claudeTipo1Soco1/claude1soco2.png" type="Texture" id=21]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/atacando/soco/claudeTipo1Soco1/claude1soco4.png" type="Texture" id=22]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/atacando/soco/claudeTipo1Soco1/claude1soco5.png" type="Texture" id=23]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/atacando/soco/claudeTipo1Soco1/claude1soco6.png" type="Texture" id=24]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/atacando/soco/claudeTipo1Soco1/claude1soco7.png" type="Texture" id=25]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/machucado/claudeMorrendo/claude1morrendo/claudemorrendo5.png" type="Texture" id=26]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/machucado/claudeMorrendo/claude1morrendo/claudemorrendo2.png" type="Texture" id=27]
+[ext_resource path="res://Scenes/EfeitosDeParticulas/PorradaNaCara/murro na caraEsquerda.tscn" type="PackedScene" id=28]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/IndicadorDeErro/IndicadorDeErro2.png" type="Texture" id=29]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/IndicadorDeErro/IndicadorDeErro1.png" type="Texture" id=30]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/IndicadorDeErro/IndicadorDeErro3.png" type="Texture" id=31]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/IndicadorDeErro/IndicadorDeErro4.png" type="Texture" id=32]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/BandidoFodase/moldeClaude/desviando/claudeDesviandoSco/claude1desviandoSoco/claude1desviandosoco6.png" type="Texture" id=33]
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 15 ), ExtResource( 16 ), ExtResource( 11 ), ExtResource( 10 ), ExtResource( 12 ), ExtResource( 13 ), ExtResource( 18 ), ExtResource( 17 ) ],
+"loop": true,
+"name": "an",
+"speed": 12.0
+}, {
+"frames": [ ExtResource( 19 ), ExtResource( 21 ), ExtResource( 20 ), ExtResource( 22 ), ExtResource( 23 ), ExtResource( 24 ), ExtResource( 25 ) ],
+"loop": true,
+"name": "socao",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 6 ), ExtResource( 3 ), ExtResource( 2 ), ExtResource( 4 ), ExtResource( 8 ), ExtResource( 33 ), ExtResource( 7 ) ],
+"loop": true,
+"name": "parryfodaA",
+"speed": 20.0
+} ]
+
+[sub_resource type="RectangleShape2D" id=2]
+extents = Vector2( 16.7553, 40.7592 )
+
+[sub_resource type="Animation" id=3]
+resource_name = "morrendo"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.3, 0.4 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 27 ), ExtResource( 5 ), ExtResource( 9 ), ExtResource( 26 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Sprite:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.2, 0.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 0, 0 ), Vector2( -100, -25 ), Vector2( -300, 0 ) ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "erro"
+length = 0.3
+tracks/0/type = "value"
+tracks/0/path = NodePath("erro:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 30 ), ExtResource( 29 ), ExtResource( 31 ), ExtResource( 32 ) ]
+}
+
+[node name="inimigoBandidoEsquerda" type="KinematicBody2D"]
+position = Vector2( 519.807, 256.324 )
+collision_layer = 4
+collision_mask = 5
+script = ExtResource( 1 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -2.99103, 27.3288 )
+scale = Vector2( 1.2, 1.2 )
+frames = SubResource( 1 )
+animation = "an"
+frame = 4
+playing = true
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -0.614014, -6.74319 )
+scale = Vector2( 1.336, 3 )
+shape = SubResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+visible = false
+scale = Vector2( 1.2, 1.2 )
+texture = ExtResource( 27 )
+
+[node name="murro na caraEsquerda" parent="Sprite" instance=ExtResource( 28 )]
+position = Vector2( -5.23218, -43.4388 )
+scale = Vector2( 0.3, 0.3 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/morrendo = SubResource( 3 )
+
+[node name="Icone" type="Sprite" parent="."]
+position = Vector2( 0.770966, 1.14283 )
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 14 )
+
+[node name="tempodevida" type="Timer" parent="."]
+
+[node name="AnimationPlayer2" type="AnimationPlayer" parent="."]
+anims/erro = SubResource( 4 )
+
+[node name="erro" type="Sprite" parent="."]
+visible = false
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 30 )
+[connection signal="timeout" from="tempodevida" to="." method="_on_tempodevida_timeout"]

@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/07 Espancar E Matar.ogg-4bb66240292eb583203753bbb27d8b43.oggstr"
+
+[deps]
+
+source_file="res://Scenes/Musicas(fases)/Espancar E Matar - Zumbis Do Espaco/07 Espancar E Matar.ogg"
+dest_files=[ "res://.import/07 Espancar E Matar.ogg-4bb66240292eb583203753bbb27d8b43.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,617 @@
+[gd_scene load_steps=53 format=2]
+
+[ext_resource path="res://Scenes/MenuDosSegredos.gd" type="Script" id=1]
+[ext_resource path="res://Ritmic Fighter assets/Fontes/Sinister-Fonts_Foul-Fiend/Foul Fiend.otf" type="DynamicFontData" id=2]
+[ext_resource path="res://Ritmic Fighter assets/IORI ATAQUES/RetratoIori/IoriCostas1.png" type="Texture" id=3]
+[ext_resource path="res://Ritmic Fighter assets/IORI ATAQUES/RetratoIori/IoriCostas2.png" type="Texture" id=4]
+[ext_resource path="res://Ritmic Fighter assets/IORI ATAQUES/RetratoIori/IoriCostas7.png" type="Texture" id=5]
+[ext_resource path="res://Ritmic Fighter assets/IORI ATAQUES/RetratoIori/IoriCostas6.png" type="Texture" id=6]
+[ext_resource path="res://Ritmic Fighter assets/IORI ATAQUES/RetratoIori/IoriCostas5.png" type="Texture" id=7]
+[ext_resource path="res://Ritmic Fighter assets/IORI ATAQUES/RetratoIori/IoriCostas8.png" type="Texture" id=8]
+[ext_resource path="res://Ritmic Fighter assets/IORI ATAQUES/RetratoIori/IoriCostas4.png" type="Texture" id=9]
+[ext_resource path="res://Ritmic Fighter assets/IORI ATAQUES/RetratoIori/IoriCostas3.png" type="Texture" id=10]
+[ext_resource path="res://Scenes/DialogSegredos.gd" type="Script" id=11]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoCOMOASSIM4(comOLHOS)OLHANDOPROPLAYER.png" type="Texture" id=12]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoBUSTO(HMM).png" type="Texture" id=13]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoFELIZDEBOCHE2(comOLHOS)OLHANDOPROPLAYER.png" type="Texture" id=14]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoFELIZALIVIADO(comOLHOS)OLHANDOPROPLAYER.png" type="Texture" id=15]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoFELIZDEBOCHE(comOLHOS)OLHANDOPROPLAYER.png" type="Texture" id=16]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoTRISTE(comOLHOS).png" type="Texture" id=17]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoCOMOASSIM4(comOLHOS).png" type="Texture" id=18]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoCOMOASSIM3(comOLHOS)OLHANDOPROPLAYER.png" type="Texture" id=19]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoFELIZ.png" type="Texture" id=20]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoFICANDOPUTO.png" type="Texture" id=21]
+[ext_resource path="res://Ritmic Fighter assets/ModoHistoria/dialog-background.png" type="Texture" id=22]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoSERIOMESMOPORRA(comOLHOS)OLHANDOPROPLAYER.png" type="Texture" id=23]
+[ext_resource path="res://Ritmic Fighter assets/ModoHistoria/next-indicator.png" type="Texture" id=24]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRosto(HMM).png" type="Texture" id=25]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoUGH(comOLHO)OLHANDOPROPLAYER.png" type="Texture" id=26]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoAGRADECIDO(comOLHOS)OLHANDOPROPLAYER.png" type="Texture" id=27]
+[ext_resource path="res://Ritmic Fighter assets/SEGREDOS/Referencias Menu dos Segredos/inuyashaSentado.png" type="Texture" id=28]
+[ext_resource path="res://Ritmic Fighter assets/SEGREDOS/Referencias Menu dos Segredos/necrose.png" type="Texture" id=29]
+[ext_resource path="res://Ritmic Fighter assets/SEGREDOS/Referencias Menu dos Segredos/ReferenciaAmandaDaGaiola.png" type="Texture" id=30]
+[ext_resource path="res://Ritmic Fighter assets/SEGREDOS/Referencias Menu dos Segredos/UrbanReign.png" type="Texture" id=31]
+[ext_resource path="res://Ritmic Fighter assets/Fontes/comic_book/Comic Book.otf" type="DynamicFontData" id=32]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 2 )
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ ExtResource( 3 ), ExtResource( 4 ), ExtResource( 10 ), ExtResource( 9 ), ExtResource( 7 ), ExtResource( 6 ), ExtResource( 5 ), ExtResource( 8 ) ],
+"loop": true,
+"name": "default",
+"speed": 15.0
+} ]
+
+[sub_resource type="DynamicFont" id=4]
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=5]
+size = 25
+font_data = ExtResource( 32 )
+
+[sub_resource type="Animation" id=6]
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1185.23, 638.235 ), Vector2( 1185.23, 652.348 ) ]
+}
+
+[sub_resource type="Animation" id=7]
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 13 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("rostop:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=8]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 17 ) ]
+}
+
+[sub_resource type="Animation" id=9]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 21 ) ]
+}
+
+[sub_resource type="Animation" id=10]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 25 ) ]
+}
+
+[sub_resource type="Animation" id=11]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("rostop:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 20 ) ]
+}
+
+[sub_resource type="Animation" id=12]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 12 ) ]
+}
+
+[sub_resource type="Animation" id=13]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 23 ) ]
+}
+
+[sub_resource type="Animation" id=14]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 16 ) ]
+}
+
+[sub_resource type="Animation" id=15]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 14 ) ]
+}
+
+[sub_resource type="Animation" id=16]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 18 ) ]
+}
+
+[sub_resource type="Animation" id=17]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 15 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("rostop:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath(".:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath(".:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=18]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 19 ) ]
+}
+
+[sub_resource type="Animation" id=19]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 26 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("rostop:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+
+[sub_resource type="Animation" id=20]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 27 ) ]
+}
+
+[node name="Segredos" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+margin_left = -48.7738
+margin_top = -37.2924
+margin_right = 1366.23
+margin_bottom = 839.708
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="LineEdit" type="LineEdit" parent="."]
+margin_left = 47.5244
+margin_top = 50.0
+margin_right = 835.524
+margin_bottom = 91.0
+rect_scale = Vector2( 1.50985, 1.82268 )
+custom_fonts/font = SubResource( 1 )
+placeholder_text = "Digite aqui a palavra/frase secreta --- Type the secret word/phrase"
+placeholder_alpha = 0.3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 380.998
+margin_top = 214.129
+margin_right = 925.998
+margin_bottom = 245.129
+custom_fonts/font = SubResource( 2 )
+text = "Unlocked Stuff / Coisas Desbloqueadas : "
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="BotaoInuyasha" type="TextureButton" parent="."]
+visible = false
+margin_left = 21.0
+margin_top = 269.0
+margin_right = 107.0
+margin_bottom = 362.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="BotaoInuyasha"]
+position = Vector2( 42.2085, 46.9126 )
+scale = Vector2( 0.25, 0.25 )
+texture = ExtResource( 28 )
+
+[node name="BotaoNecrose" type="TextureButton" parent="."]
+visible = false
+margin_left = 117.0
+margin_top = 273.0
+margin_right = 197.0
+margin_bottom = 353.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="BotaoNecrose"]
+position = Vector2( 39.9126, 39.7946 )
+scale = Vector2( 0.15, 0.15 )
+texture = ExtResource( 29 )
+
+[node name="BotaoAmandaGaiola" type="TextureButton" parent="."]
+visible = false
+margin_left = 18.0
+margin_top = 372.0
+margin_right = 100.0
+margin_bottom = 457.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="BotaoAmandaGaiola"]
+position = Vector2( 41.1116, 41.5713 )
+scale = Vector2( 0.09, 0.09 )
+texture = ExtResource( 30 )
+
+[node name="BotaoUrbanReign" type="TextureButton" parent="."]
+visible = false
+margin_left = 115.0
+margin_top = 374.0
+margin_right = 192.0
+margin_bottom = 480.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="BotaoUrbanReign"]
+position = Vector2( 39.1116, 53.5713 )
+scale = Vector2( 0.12, 0.12 )
+texture = ExtResource( 31 )
+
+[node name="UnlockMaster" type="AnimatedSprite" parent="."]
+visible = false
+position = Vector2( 641.525, 614.351 )
+frames = SubResource( 3 )
+frame = 1
+playing = true
+
+[node name="Button" type="Button" parent="."]
+margin_left = 28.8006
+margin_top = 656.076
+margin_right = 223.801
+margin_bottom = 703.076
+custom_fonts/font = SubResource( 4 )
+text = "retornar / Return"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+
+[node name="DialogSegredos" type="Control" parent="."]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 11 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="DialogSegredos"]
+modulate = Color( 1, 0.435294, 0.435294, 1 )
+anchor_left = 16.365
+anchor_top = 18.012
+anchor_right = 16.365
+anchor_bottom = 18.012
+margin_left = -587.6
+margin_top = -254.48
+margin_right = 587.4
+margin_bottom = -39.48
+texture = ExtResource( 22 )
+expand = true
+stretch_mode = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="DialogSegredos"]
+anchor_left = 2.15
+anchor_top = 12.325
+anchor_right = 30.7
+anchor_bottom = 16.375
+margin_left = 30.0
+margin_top = -5.0
+margin_right = -30.0
+margin_bottom = 5.0
+custom_fonts/normal_font = SubResource( 5 )
+custom_colors/default_color = Color( 0.0784314, 0.0784314, 0.0784314, 1 )
+bbcode_enabled = true
+bbcode_text = "Sailor moon e foda meu irmao "
+text = "Sailor moon e foda meu irmao "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tween" type="Tween" parent="DialogSegredos"]
+
+[node name="next-indicator" type="Sprite" parent="DialogSegredos"]
+position = Vector2( 1185.23, 638.235 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 24 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DialogSegredos/next-indicator"]
+autoplay = "IDLE"
+anims/IDLE = SubResource( 6 )
+
+[node name="NEXT" type="TextureButton" parent="DialogSegredos/next-indicator"]
+margin_left = -87.0
+margin_top = -62.0
+margin_right = 79.0
+margin_bottom = 56.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ControleVeloz" type="Timer" parent="DialogSegredos"]
+
+[node name="Sprite" type="Sprite" parent="DialogSegredos"]
+position = Vector2( 288, 343.5 )
+texture = ExtResource( 13 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DialogSegredos/Sprite"]
+anims/aparicao1 = SubResource( 7 )
+anims/aparicao10 = SubResource( 8 )
+anims/aparicao11 = SubResource( 9 )
+anims/aparicao12 = SubResource( 10 )
+anims/aparicao2 = SubResource( 11 )
+anims/aparicao3 = SubResource( 12 )
+anims/aparicao4 = SubResource( 13 )
+anims/aparicao5 = SubResource( 14 )
+anims/aparicao6 = SubResource( 15 )
+anims/aparicao7 = SubResource( 16 )
+anims/aparicao8 = SubResource( 17 )
+anims/aparicao9 = SubResource( 18 )
+anims/aparicaoNOJO = SubResource( 19 )
+anims/aparicaoPEDIDO = SubResource( 20 )
+
+[node name="rostop" type="Sprite" parent="DialogSegredos/Sprite"]
+position = Vector2( -15, -9 )
+texture = ExtResource( 27 )
+
+[node name="TextureButton" type="TextureButton" parent="DialogSegredos"]
+margin_left = 67.0
+margin_top = 465.0
+margin_right = 1242.0
+margin_bottom = 681.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CAMINHO 1" type="Node" parent="DialogSegredos"]
+
+[node name="CAMINHO 2" type="Node" parent="DialogSegredos"]
+
+[node name="Label2" type="Label" parent="."]
+modulate = Color( 0.905882, 0.905882, 0.905882, 0.498039 )
+margin_left = 946.579
+margin_top = 19.5535
+margin_right = 1270.58
+margin_bottom = 169.553
+text = " \"antsy\" é a palavra pra saber o dev log da vez
+
+
+
+
+
+
+SEGREDOS SEMPRE EM MINÚSCULO E SEM ACENTO
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="BotaoInuyasha" to="." method="_on_BotaoInuyasha_pressed"]
+[connection signal="pressed" from="BotaoNecrose" to="." method="_on_BotaoNecrose_pressed"]
+[connection signal="pressed" from="BotaoAmandaGaiola" to="." method="_on_BotaoAmandaGaiola_pressed"]
+[connection signal="pressed" from="BotaoUrbanReign" to="." method="_on_BotaoUrbanReign_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]
+[connection signal="tween_completed" from="DialogSegredos/Tween" to="DialogSegredos" method="_on_Tween_tween_completed"]
+[connection signal="pressed" from="DialogSegredos/next-indicator/NEXT" to="DialogSegredos" method="_on_NEXT_pressed"]
+[connection signal="timeout" from="DialogSegredos/ControleVeloz" to="DialogSegredos" method="_on_ControleVeloz_timeout"]
+[connection signal="pressed" from="DialogSegredos/TextureButton" to="DialogSegredos" method="_on_TextureButton_pressed"]

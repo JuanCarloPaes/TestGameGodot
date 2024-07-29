@@ -1,0 +1,11 @@
+[gd_scene format=2]
+
+[node name="PauseFodase" type="Button"]
+margin_left = 163.42
+margin_top = -133.484
+margin_right = 189.42
+margin_bottom = -113.484
+text = "||"
+__meta__ = {
+"_edit_use_anchors_": false
+}

@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Scenes/Musicas(fases)/Espancar E Matar - Zumbis Do Espaco/07 Espancar E Matar.ogg" type="AudioStream" id=1]
+[ext_resource path="res://EspancarEmatar.gd" type="Script" id=2]
+
+[node name="EspancarEmatar" type="AudioStreamPlayer"]
+stream = ExtResource( 1 )
+script = ExtResource( 2 )
+[connection signal="finished" from="." to="." method="_on_EspancarEmatar_finished"]

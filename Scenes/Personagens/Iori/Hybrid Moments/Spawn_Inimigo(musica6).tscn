@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Scenes/Personagens/Iori/Hybrid Moments/Spawn_Inimigo(musica6).gd" type="Script" id=1]
+
+[node name="Spawn_Inimigo direita" type="Position2D"]
+position = Vector2( 707.501, 226.5 )
+script = ExtResource( 1 )
+
+[node name="container" type="Node" parent="." groups=[
+"INIMIGOS",
+]]
+
+[node name="Timer" type="Timer" parent="container"]
+wait_time = 1.25
+one_shot = true
+[connection signal="timeout" from="container/Timer" to="." method="_on_Timer_timeout"]

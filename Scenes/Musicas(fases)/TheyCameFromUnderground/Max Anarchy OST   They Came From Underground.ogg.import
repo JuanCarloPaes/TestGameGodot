@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Max Anarchy OST   They Came From Underground.ogg-d1166970883c3c05b542dc150dacb675.oggstr"
+
+[deps]
+
+source_file="res://Scenes/Musicas(fases)/TheyCameFromUnderground/Max Anarchy OST   They Came From Underground.ogg"
+dest_files=[ "res://.import/Max Anarchy OST   They Came From Underground.ogg-d1166970883c3c05b542dc150dacb675.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

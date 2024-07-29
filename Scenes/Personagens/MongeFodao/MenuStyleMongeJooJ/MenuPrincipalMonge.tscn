@@ -1,0 +1,1132 @@
+[gd_scene load_steps=70 format=2]
+
+[ext_resource path="res://Scenes/Personagens/MongeFodao/MenuStyleMongeJooJ/MenuPrincipalMonge.gd" type="Script" id=1]
+[ext_resource path="res://Scenes/Musicas(fases)/Black Ice-Municipal Waste/BLACKiceNOME.png" type="Texture" id=2]
+[ext_resource path="res://Scenes/Musicas(fases)/Black Ice-Municipal Waste/MunicipalWasteLogoHazardousMutation.png" type="Texture" id=3]
+[ext_resource path="res://Scenes/Musicas(fases)/Black Ice-Municipal Waste/MunicipalWasteLogoHazardousMutationBORDAS.png" type="Texture" id=4]
+[ext_resource path="res://Scenes/Musicas(fases)/Black Ice-Municipal Waste/BLACKiceNOMEBORDA.png" type="Texture" id=5]
+[ext_resource path="res://Scenes/Musicas(fases)/Espancar E Matar - Zumbis Do Espaco/ESPANCAReMATAR.png" type="Texture" id=6]
+[ext_resource path="res://Scenes/Musicas(fases)/Espancar E Matar - Zumbis Do Espaco/ZUMBISDOESPACOLOGO.png" type="Texture" id=7]
+[ext_resource path="res://Scenes/Musicas(fases)/The Demon is God - Destruction/TheDemonIsGod.png" type="Texture" id=8]
+[ext_resource path="res://Ritmic Fighter assets/Logos/Destructuion/DESTRUCTIONlogo.png" type="Texture" id=9]
+[ext_resource path="res://Scenes/Musicas(fases)/OverInaFlashMAXANARCHY/OverInAflash.png" type="Texture" id=10]
+[ext_resource path="res://Ritmic Fighter assets/Logos/Max Anarchy/AnarchyReignsLogo.png" type="Texture" id=11]
+[ext_resource path="res://Scenes/Musicas(fases)/TheyCameFromUnderground/TheyCameFromUder.png" type="Texture" id=12]
+[ext_resource path="res://Ritmic Fighter assets/Fontes/Sinister-Fonts_Foul-Fiend/Foul Fiend.otf" type="DynamicFontData" id=13]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADO.png" type="Texture" id=14]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/SalaDeTreino3.png" type="Texture" id=15]
+[ext_resource path="res://Scenes/Personagens/MongeFodao/MenuStyleMongeJooJ/DialogTreinoTop.gd" type="Script" id=16]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoCOMOASSIM4(comOLHOS)OLHANDOPROPLAYER.png" type="Texture" id=17]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoBUSTO(HMM).png" type="Texture" id=18]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoFELIZDEBOCHE2(comOLHOS)OLHANDOPROPLAYER.png" type="Texture" id=19]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoFELIZALIVIADO(comOLHOS)OLHANDOPROPLAYER.png" type="Texture" id=20]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoFELIZDEBOCHE(comOLHOS)OLHANDOPROPLAYER.png" type="Texture" id=21]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoTRISTE(comOLHOS).png" type="Texture" id=22]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoCOMOASSIM4(comOLHOS).png" type="Texture" id=23]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoCOMOASSIM3(comOLHOS)OLHANDOPROPLAYER.png" type="Texture" id=24]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoFELIZ.png" type="Texture" id=25]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoFICANDOPUTO.png" type="Texture" id=26]
+[ext_resource path="res://Ritmic Fighter assets/ModoHistoria/dialog-background.png" type="Texture" id=27]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoSERIOMESMOPORRA(comOLHOS)OLHANDOPROPLAYER.png" type="Texture" id=28]
+[ext_resource path="res://Ritmic Fighter assets/ModoHistoria/next-indicator.png" type="Texture" id=29]
+[ext_resource path="res://Scenes/Personagens/MongeFodao/MenuStyleMongeJooJ/MenuADs.gd" type="Script" id=30]
+[ext_resource path="res://Ritmic Fighter assets/Logos/Mad World/MADWORLD logo.png" type="Texture" id=31]
+[ext_resource path="res://Ritmic Fighter assets/Fontes/ghoulish_normal/Ghoulish.ttf" type="DynamicFontData" id=32]
+[ext_resource path="res://Ritmic Fighter assets/Logos/Life is a Lie/LIFE IS A LIE logo.png" type="Texture" id=33]
+[ext_resource path="res://Ritmic Fighter assets/Logos/Life is a Lie/GASOLINA.png" type="Texture" id=34]
+[ext_resource path="res://Ritmic Fighter assets/Fontes/comic_book/Comic Book.otf" type="DynamicFontData" id=35]
+[ext_resource path="res://Ritmic Fighter assets/Logos/Gangrena Gasosa/R-12310117-1532661648-7318.jpeg.png" type="Texture" id=36]
+[ext_resource path="res://Ritmic Fighter assets/Logos/Descendo A Canelada/A-910142-1269862884.jpeg.png" type="Texture" id=37]
+[ext_resource path="res://Ritmic Fighter assets/Logos/Descendo A Canelada/descendoAcAnelada.png" type="Texture" id=38]
+[ext_resource path="res://Ritmic Fighter assets/Logos/Agnostic Front/police state.png" type="Texture" id=39]
+[ext_resource path="res://Ritmic Fighter assets/Logos/Agnostic Front/Agnostic Front.png" type="Texture" id=40]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Retrato/MONGEsemNomeALTERADOretratoRostoAGRADECIDO(comOLHOS)OLHANDOPROPLAYER.png" type="Texture" id=41]
+
+[sub_resource type="DynamicFont" id=1]
+font_data = ExtResource( 13 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 35 )
+
+[sub_resource type="DynamicFont" id=3]
+font_data = ExtResource( 13 )
+
+[sub_resource type="DynamicFont" id=4]
+font_data = ExtResource( 13 )
+
+[sub_resource type="DynamicFont" id=5]
+font_data = ExtResource( 13 )
+
+[sub_resource type="DynamicFont" id=6]
+font_data = ExtResource( 13 )
+
+[sub_resource type="DynamicFont" id=7]
+font_data = ExtResource( 13 )
+
+[sub_resource type="DynamicFont" id=8]
+size = 28
+font_data = ExtResource( 32 )
+
+[sub_resource type="DynamicFont" id=9]
+font_data = ExtResource( 13 )
+
+[sub_resource type="DynamicFont" id=10]
+font_data = ExtResource( 13 )
+
+[sub_resource type="DynamicFont" id=11]
+font_data = ExtResource( 13 )
+
+[sub_resource type="DynamicFont" id=12]
+font_data = ExtResource( 13 )
+
+[sub_resource type="DynamicFont" id=13]
+font_data = ExtResource( 13 )
+
+[sub_resource type="DynamicFont" id=14]
+size = 25
+font_data = ExtResource( 35 )
+
+[sub_resource type="Animation" id=15]
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:position")
+tracks/0/interp = 2
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1185.23, 638.235 ), Vector2( 1185.23, 652.348 ) ]
+}
+
+[sub_resource type="Animation" id=16]
+length = 0.5
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath(".:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 18 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("rostop:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ false ]
+}
+
+[sub_resource type="Animation" id=17]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 22 ) ]
+}
+
+[sub_resource type="Animation" id=18]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 26 ) ]
+}
+
+[sub_resource type="Animation" id=19]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("rostop:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 25 ) ]
+}
+
+[sub_resource type="Animation" id=20]
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("rostop:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("rostop:texture")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 25 ) ]
+}
+
+[sub_resource type="Animation" id=21]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 17 ) ]
+}
+
+[sub_resource type="Animation" id=22]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 28 ) ]
+}
+
+[sub_resource type="Animation" id=23]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 21 ) ]
+}
+
+[sub_resource type="Animation" id=24]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 19 ) ]
+}
+
+[sub_resource type="Animation" id=25]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 23 ) ]
+}
+
+[sub_resource type="Animation" id=26]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 20 ) ]
+}
+
+[sub_resource type="Animation" id=27]
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 24 ) ]
+}
+
+[sub_resource type="Animation" id=28]
+resource_name = "aparicaoPEDIDO"
+tracks/0/type = "value"
+tracks/0/path = NodePath("rostop:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ ExtResource( 41 ) ]
+}
+
+[node name="MenuPrincipal" type="Control" groups=[
+"Persist",
+]]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+modulate = Color( 0.729412, 0.729412, 0.729412, 1 )
+margin_left = -65.9546
+margin_top = -57.773
+margin_right = 1333.05
+margin_bottom = 778.227
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 639.928, 361.793 )
+scale = Vector2( 1.3274, 1.35133 )
+texture = ExtResource( 15 )
+
+[node name="Musica1" type="Button" parent="."]
+margin_left = 62.0
+margin_top = 79.0
+margin_right = 280.0
+margin_bottom = 221.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Musica1"]
+position = Vector2( 108.989, 66.1222 )
+scale = Vector2( 0.286277, 0.183299 )
+texture = ExtResource( 3 )
+
+[node name="Sprite2" type="Sprite" parent="Musica1/Sprite"]
+modulate = Color( 0, 0, 0, 1 )
+texture = ExtResource( 4 )
+
+[node name="Sprite3" type="Sprite" parent="Musica1"]
+position = Vector2( 100.426, 23.3512 )
+scale = Vector2( 1.06254, 1.47828 )
+texture = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="Musica1/Sprite3"]
+modulate = Color( 0.447059, 0.447059, 0.447059, 1 )
+texture = ExtResource( 5 )
+
+[node name="pontosBlackIcE" type="Label" parent="Musica1"]
+margin_left = 92.4524
+margin_top = 111.285
+margin_right = 116.452
+margin_bottom = 142.285
+custom_fonts/font = SubResource( 1 )
+text = "0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="dificuldade" type="Label" parent="Musica1"]
+margin_left = 83.736
+margin_top = 85.7277
+margin_right = 133.736
+margin_bottom = 132.728
+custom_fonts/font = SubResource( 2 )
+text = "difícil"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Musica2" type="Button" parent="."]
+margin_left = 297.0
+margin_top = 78.0
+margin_right = 500.0
+margin_bottom = 221.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Musica2"]
+position = Vector2( 102.055, 25.0643 )
+scale = Vector2( 0.315419, 0.562533 )
+texture = ExtResource( 6 )
+
+[node name="Sprite2" type="Sprite" parent="Musica2"]
+position = Vector2( 100.999, 75.1236 )
+scale = Vector2( 0.345968, 0.590027 )
+texture = ExtResource( 7 )
+
+[node name="pontoEspancEmatar" type="Label" parent="Musica2"]
+margin_left = 3.0
+margin_top = 110.0
+margin_right = 201.0
+margin_bottom = 141.0
+custom_fonts/font = SubResource( 3 )
+text = "0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="dificuldade2" type="Label" parent="Musica2"]
+margin_left = 76.7509
+margin_top = 88.0055
+margin_right = 126.751
+margin_bottom = 135.006
+custom_fonts/font = SubResource( 2 )
+text = "médio"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Musica3" type="Button" parent="."]
+margin_left = 533.0
+margin_top = 78.0
+margin_right = 736.0
+margin_bottom = 221.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pontosTheDemonIsGod" type="Label" parent="Musica3"]
+margin_left = 13.2982
+margin_top = 113.47
+margin_right = 190.298
+margin_bottom = 144.47
+custom_fonts/font = SubResource( 4 )
+text = "0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Musica3"]
+position = Vector2( 100.647, 25.7833 )
+scale = Vector2( 0.3049, 1 )
+texture = ExtResource( 8 )
+
+[node name="Sprite2" type="Sprite" parent="Musica3"]
+position = Vector2( 102.823, 73.4757 )
+scale = Vector2( 0.210187, 0.155729 )
+texture = ExtResource( 9 )
+
+[node name="dificuldade3" type="Label" parent="Musica3"]
+margin_left = 77.7509
+margin_top = 88.6629
+margin_right = 127.751
+margin_bottom = 135.663
+custom_fonts/font = SubResource( 2 )
+text = "médio"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Musica4" type="Button" parent="."]
+margin_left = 768.0
+margin_top = 78.0
+margin_right = 971.0
+margin_bottom = 222.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pontosOverInAFlash" type="Label" parent="Musica4"]
+margin_left = 13.2982
+margin_top = 113.47
+margin_right = 190.298
+margin_bottom = 144.47
+custom_fonts/font = SubResource( 5 )
+text = "0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Musica4"]
+position = Vector2( 105.496, 21 )
+scale = Vector2( 0.872208, 1 )
+texture = ExtResource( 10 )
+
+[node name="Sprite2" type="Sprite" parent="Musica4"]
+position = Vector2( 111.942, 61.5881 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 11 )
+
+[node name="dificuldade4" type="Label" parent="Musica4"]
+margin_left = 52.0433
+margin_top = 86.0455
+margin_right = 145.043
+margin_bottom = 133.045
+custom_fonts/font = SubResource( 2 )
+text = "médio-fácil"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Musica5" type="Button" parent="."]
+margin_left = 995.0
+margin_top = 78.0
+margin_right = 1198.0
+margin_bottom = 224.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pontosTheyCameFromUnder" type="Label" parent="Musica5"]
+margin_left = 13.2982
+margin_top = 116.47
+margin_right = 190.298
+margin_bottom = 147.47
+custom_fonts/font = SubResource( 6 )
+text = "0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Musica5"]
+position = Vector2( 103.282, 20.5977 )
+scale = Vector2( 0.76538, 0.650693 )
+texture = ExtResource( 12 )
+
+[node name="Sprite2" type="Sprite" parent="Musica5"]
+position = Vector2( 104.942, 61.5881 )
+scale = Vector2( 0.2, 0.2 )
+texture = ExtResource( 11 )
+
+[node name="dificuldade5" type="Label" parent="Musica5"]
+margin_left = 51.2834
+margin_top = 84.6391
+margin_right = 144.283
+margin_bottom = 131.639
+custom_fonts/font = SubResource( 2 )
+text = "médio-fácil"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Musica6" type="Button" parent="."]
+margin_left = 62.0
+margin_top = 235.0
+margin_right = 280.0
+margin_bottom = 366.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pontosMove" type="Label" parent="Musica6"]
+margin_left = 92.4524
+margin_top = 96.285
+margin_right = 116.452
+margin_bottom = 127.285
+custom_fonts/font = SubResource( 1 )
+text = "0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Musica6"]
+position = Vector2( 107.027, 63.1312 )
+scale = Vector2( 0.365313, 0.365313 )
+texture = ExtResource( 31 )
+
+[node name="Label" type="Label" parent="Musica6"]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 52.8653
+margin_top = 6.45554
+margin_right = 107.865
+margin_bottom = 37.4555
+rect_scale = Vector2( 1.79976, 1.50647 )
+custom_fonts/font = SubResource( 7 )
+text = "MOve"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="dificuldade6" type="Label" parent="Musica6"]
+margin_left = 79.5621
+margin_top = 75.4065
+margin_right = 172.562
+margin_bottom = 122.406
+custom_fonts/font = SubResource( 2 )
+text = "médio
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Musica7" type="Button" parent="."]
+margin_left = 63.0
+margin_top = 379.397
+margin_right = 281.0
+margin_bottom = 491.397
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pontosHybridMoments" type="Label" parent="Musica7"]
+margin_left = 92.4524
+margin_top = 77.285
+margin_right = 116.452
+margin_bottom = 108.285
+custom_fonts/font = SubResource( 1 )
+text = "0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="Musica7"]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 4.82318
+margin_top = 4.64639
+margin_right = 215.823
+margin_bottom = 34.6464
+custom_fonts/font = SubResource( 8 )
+text = "Hybrid Moments"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="Musica7"]
+modulate = Color( 0, 0, 0, 1 )
+margin_left = 3.91437
+margin_top = 33.6464
+margin_right = 214.914
+margin_bottom = 63.6464
+custom_fonts/font = SubResource( 8 )
+text = "       Misfits"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="dificuldade7" type="Label" parent="Musica7"]
+margin_left = 58.2222
+margin_top = 56.7544
+margin_right = 151.222
+margin_bottom = 103.754
+custom_fonts/font = SubResource( 2 )
+text = "médio-fácil
+"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Musica8" type="Button" parent="."]
+margin_left = 292.764
+margin_top = 235.0
+margin_right = 503.764
+margin_bottom = 366.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pontosGASOLINA" type="Label" parent="Musica8"]
+margin_left = 92.4524
+margin_top = 96.285
+margin_right = 116.452
+margin_bottom = 127.285
+custom_fonts/font = SubResource( 1 )
+text = "0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Musica8"]
+position = Vector2( 107.027, 62.1312 )
+scale = Vector2( 0.365313, 0.365313 )
+texture = ExtResource( 33 )
+
+[node name="Sprite2" type="Sprite" parent="Musica8"]
+position = Vector2( 108.053, 21.2103 )
+scale = Vector2( 0.898642, 0.808624 )
+texture = ExtResource( 34 )
+
+[node name="dificuldade8" type="Label" parent="Musica8"]
+margin_left = 80.4491
+margin_top = 79.3637
+margin_right = 173.449
+margin_bottom = 126.364
+custom_fonts/font = SubResource( 2 )
+text = "Difícil"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Musica9" type="Button" parent="."]
+margin_left = 997.0
+margin_top = 236.0
+margin_right = 1199.0
+margin_bottom = 375.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pontosGenteRuim" type="Label" parent="Musica9"]
+margin_left = 92.4524
+margin_top = 104.285
+margin_right = 116.452
+margin_bottom = 135.285
+custom_fonts/font = SubResource( 1 )
+text = "0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="NomeMusica" type="Label" parent="Musica9"]
+margin_left = 36.493
+margin_top = 5.12326
+margin_right = 132.493
+margin_bottom = 27.1233
+rect_scale = Vector2( 1.43999, 1.44 )
+custom_fonts/font = SubResource( 2 )
+custom_colors/font_color = Color( 0.917647, 1, 0, 1 )
+custom_colors/font_outline_modulate = Color( 1, 0, 0, 1 )
+custom_colors/font_color_shadow = Color( 1, 0, 0, 1 )
+text = "Gente Ruim"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Musica9"]
+position = Vector2( 98.9733, 58.4622 )
+scale = Vector2( 0.56103, 0.373572 )
+texture = ExtResource( 36 )
+
+[node name="dificuldade9" type="Label" parent="Musica9"]
+margin_left = 80.4491
+margin_top = 86.3637
+margin_right = 173.449
+margin_bottom = 133.364
+custom_fonts/font = SubResource( 2 )
+text = "Médio"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Musica10" type="Button" parent="."]
+margin_left = 762.0
+margin_top = 235.0
+margin_right = 973.0
+margin_bottom = 377.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pontosDescendoCanelada" type="Label" parent="Musica10"]
+margin_left = 92.4524
+margin_top = 107.285
+margin_right = 116.452
+margin_bottom = 138.285
+custom_fonts/font = SubResource( 1 )
+text = "0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Musica10"]
+position = Vector2( 103.991, 69.5297 )
+scale = Vector2( 0.70649, 0.298946 )
+texture = ExtResource( 37 )
+
+[node name="Sprite2" type="Sprite" parent="Musica10"]
+modulate = Color( 1, 0.580392, 0.580392, 1 )
+position = Vector2( 108.712, 12.2614 )
+scale = Vector2( 0.585946, 0.860615 )
+texture = ExtResource( 38 )
+
+[node name="dificuldade10" type="Label" parent="Musica10"]
+margin_left = 78.8503
+margin_top = 88.3637
+margin_right = 171.85
+margin_bottom = 135.364
+custom_fonts/font = SubResource( 2 )
+text = "Médio"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Musica11" type="Button" parent="."]
+margin_left = 294.0
+margin_top = 379.0
+margin_right = 505.0
+margin_bottom = 492.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="pontosPoliceState" type="Label" parent="Musica11"]
+margin_left = 92.4524
+margin_top = 82.285
+margin_right = 116.452
+margin_bottom = 113.285
+custom_fonts/font = SubResource( 1 )
+text = "0"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Sprite" type="Sprite" parent="Musica11"]
+position = Vector2( 105.609, 45.5297 )
+scale = Vector2( 0.454157, 0.298946 )
+texture = ExtResource( 40 )
+
+[node name="Sprite2" type="Sprite" parent="Musica11"]
+modulate = Color( 0, 0, 0, 1 )
+position = Vector2( 104.562, 17.7218 )
+scale = Vector2( 1.36285, 1.10672 )
+texture = ExtResource( 39 )
+
+[node name="dificuldade11" type="Label" parent="Musica11"]
+margin_left = 79.4806
+margin_top = 61.994
+margin_right = 172.48
+margin_bottom = 108.994
+custom_fonts/font = SubResource( 2 )
+text = "Médio"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Resetar progresso" type="Button" parent="."]
+margin_left = 41.0493
+margin_top = 573.389
+margin_right = 266.049
+margin_bottom = 619.389
+custom_fonts/font = SubResource( 9 )
+text = "Resetar Progresso"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label" type="Label" parent="."]
+margin_left = 191.885
+margin_top = 6.39133
+margin_right = 1021.89
+margin_bottom = 83.3913
+custom_fonts/font = SubResource( 10 )
+text = "Escolha a mUsica "
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Personagens" type="Button" parent="."]
+visible = false
+margin_left = 41.0
+margin_top = 524.586
+margin_right = 270.0
+margin_bottom = 579.586
+custom_fonts/font = SubResource( 11 )
+text = "Personagens"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Segredos" type="Button" parent="."]
+margin_left = 41.0
+margin_top = 639.0
+margin_right = 270.0
+margin_bottom = 694.0
+custom_fonts/font = SubResource( 11 )
+text = "''Meditacao''"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="PersonagemDaVez" type="Sprite" parent="."]
+position = Vector2( 621.496, 444.202 )
+scale = Vector2( 0.35, 0.35 )
+texture = ExtResource( 14 )
+
+[node name="BotaoSecreto" type="TextureButton" parent="."]
+margin_left = 506.493
+margin_top = 232.0
+margin_right = 768.493
+margin_bottom = 690.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Creditos2" type="Button" parent="."]
+margin_left = 40.1996
+margin_top = 515.085
+margin_right = 148.2
+margin_bottom = 561.085
+custom_fonts/font = SubResource( 12 )
+text = "Creditos"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="Creditos2"]
+visible = false
+margin_left = 258.525
+margin_top = 18.9133
+margin_right = 505.525
+margin_bottom = 185.913
+custom_fonts/font = SubResource( 13 )
+text = "Creditos: 
+
+arte: Necrose atomica
+pixel art: ansimuz
+programador: hueson"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Creditos" type="Button" parent="."]
+margin_left = 41.1996
+margin_top = 515.085
+margin_right = 149.2
+margin_bottom = 561.085
+custom_fonts/font = SubResource( 12 )
+text = "Creditos"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label2" type="Label" parent="Creditos"]
+visible = false
+margin_left = -1.74188
+margin_top = -193.41
+margin_right = 245.258
+margin_bottom = -26.4103
+custom_fonts/font = SubResource( 13 )
+text = "Creditos: 
+
+arte: Necrose atomica
+pixel art: ansimuz
+programador: hueson"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="DialogTreinoTop" type="Control" parent="."]
+visible = false
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 16 )
+__meta__ = {
+"_edit_group_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="TextureRect" type="TextureRect" parent="DialogTreinoTop"]
+modulate = Color( 1, 0.435294, 0.435294, 1 )
+anchor_left = 16.365
+anchor_top = 18.012
+anchor_right = 16.365
+anchor_bottom = 18.012
+margin_left = -587.6
+margin_top = -254.48
+margin_right = 587.4
+margin_bottom = -39.48
+texture = ExtResource( 27 )
+expand = true
+stretch_mode = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="RichTextLabel" type="RichTextLabel" parent="DialogTreinoTop"]
+anchor_left = 2.15
+anchor_top = 12.325
+anchor_right = 30.7
+anchor_bottom = 16.375
+margin_left = 30.0
+margin_top = -5.0
+margin_right = -30.0
+margin_bottom = 5.0
+custom_fonts/normal_font = SubResource( 14 )
+custom_colors/default_color = Color( 0.0784314, 0.0784314, 0.0784314, 1 )
+bbcode_enabled = true
+bbcode_text = "Sailor moon e foda meu irmao "
+text = "Sailor moon e foda meu irmao "
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tween" type="Tween" parent="DialogTreinoTop"]
+
+[node name="next-indicator" type="Sprite" parent="DialogTreinoTop"]
+position = Vector2( 1185.23, 638.235 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 29 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DialogTreinoTop/next-indicator"]
+autoplay = "IDLE"
+anims/IDLE = SubResource( 15 )
+
+[node name="NEXT" type="TextureButton" parent="DialogTreinoTop/next-indicator"]
+margin_left = -91.0
+margin_top = -64.0
+margin_right = 74.0
+margin_bottom = 58.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ControleVeloz" type="Timer" parent="DialogTreinoTop"]
+
+[node name="Sprite" type="Sprite" parent="DialogTreinoTop"]
+position = Vector2( 288, 343.5 )
+texture = ExtResource( 18 )
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="DialogTreinoTop/Sprite"]
+anims/aparicao1 = SubResource( 16 )
+anims/aparicao10 = SubResource( 17 )
+anims/aparicao11 = SubResource( 18 )
+anims/aparicao2 = SubResource( 19 )
+anims/aparicao22 = SubResource( 20 )
+anims/aparicao3 = SubResource( 21 )
+anims/aparicao4 = SubResource( 22 )
+anims/aparicao5 = SubResource( 23 )
+anims/aparicao6 = SubResource( 24 )
+anims/aparicao7 = SubResource( 25 )
+anims/aparicao8 = SubResource( 26 )
+anims/aparicao9 = SubResource( 27 )
+anims/aparicaoPEDIDO = SubResource( 28 )
+
+[node name="rostop" type="Sprite" parent="DialogTreinoTop/Sprite"]
+position = Vector2( -15, -9 )
+texture = ExtResource( 23 )
+
+[node name="TextureButton" type="TextureButton" parent="DialogTreinoTop"]
+margin_left = 67.0
+margin_top = 465.0
+margin_right = 1242.0
+margin_bottom = 681.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="CAMINHO 1" type="Node" parent="DialogTreinoTop"]
+
+[node name="CAMINHO 2" type="Node" parent="DialogTreinoTop"]
+
+[node name="MenuADs" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+script = ExtResource( 30 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="aviso" type="Label" parent="."]
+margin_left = 663.258
+margin_top = 304.983
+margin_right = 745.258
+margin_bottom = 362.983
+text = "        !!!
+		(Aperte aqui)"
+[connection signal="pressed" from="Musica1" to="." method="_on_Musica1_pressed"]
+[connection signal="pressed" from="Musica2" to="." method="_on_Musica2_pressed"]
+[connection signal="pressed" from="Musica3" to="." method="_on_Musica3_pressed"]
+[connection signal="pressed" from="Musica4" to="." method="_on_Musica4_pressed"]
+[connection signal="pressed" from="Musica5" to="." method="_on_Musica5_pressed"]
+[connection signal="pressed" from="Musica6" to="." method="_on_Musica6_pressed"]
+[connection signal="pressed" from="Musica7" to="." method="_on_Musica7_pressed"]
+[connection signal="pressed" from="Musica8" to="." method="_on_Musica8_pressed"]
+[connection signal="pressed" from="Musica9" to="." method="_on_Musica9_pressed"]
+[connection signal="pressed" from="Musica10" to="." method="_on_Musica10_pressed"]
+[connection signal="pressed" from="Musica11" to="." method="_on_Musica11_pressed"]
+[connection signal="pressed" from="Resetar progresso" to="." method="_on_Resetar_progresso_pressed"]
+[connection signal="pressed" from="Personagens" to="." method="_on_Personagens_pressed"]
+[connection signal="pressed" from="Segredos" to="." method="_on_Segredos_pressed"]
+[connection signal="pressed" from="BotaoSecreto" to="." method="_on_BotaoSecreto_pressed"]
+[connection signal="pressed" from="Creditos2" to="." method="_on_Creditos2_pressed"]
+[connection signal="pressed" from="Creditos" to="." method="_on_Creditos_pressed"]
+[connection signal="tween_completed" from="DialogTreinoTop/Tween" to="DialogTreinoTop" method="_on_Tween_tween_completed"]
+[connection signal="pressed" from="DialogTreinoTop/next-indicator/NEXT" to="DialogTreinoTop" method="_on_NEXT_pressed"]
+[connection signal="timeout" from="DialogTreinoTop/ControleVeloz" to="DialogTreinoTop" method="_on_ControleVeloz_timeout"]
+[connection signal="pressed" from="DialogTreinoTop/TextureButton" to="DialogTreinoTop" method="_on_TextureButton_pressed"]

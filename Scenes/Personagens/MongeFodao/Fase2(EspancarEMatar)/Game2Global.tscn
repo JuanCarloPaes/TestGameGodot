@@ -1,0 +1,195 @@
+[gd_scene load_steps=18 format=2]
+
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Ruas/ponteCP/ponte deserta1.png" type="Texture" id=1]
+[ext_resource path="res://Ritmic Fighter assets/Particulanegra.png" type="Texture" id=2]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/Arena Sangue celeste/TilesetArenaSangueCeleste/tilesetASC.tres" type="TileSet" id=21]
+[ext_resource path="res://Scenes/Personagens/MongeFodao/BasePersonagemMongeFodao/MongeFodao.tscn" type="PackedScene" id=22]
+[ext_resource path="res://Scenes/Personagens/MongeFodao/Fase2(EspancarEMatar)/Spawn_InimigoOSUdos(musica2).tscn" type="PackedScene" id=23]
+[ext_resource path="res://Scenes/Musicas(fases)/Espancar E Matar - Zumbis Do Espaco/EspancarEmatar.tscn" type="PackedScene" id=24]
+[ext_resource path="res://Ritmic Fighter assets/Fontes/Sinister-Fonts_Foul-Fiend/Foul Fiend.otf" type="DynamicFontData" id=25]
+[ext_resource path="res://Scenes/Personagens/MongeFodao/Fase2(EspancarEMatar)/Game2Global.gd" type="Script" id=26]
+[ext_resource path="res://Scenes/Musicas(fases)/Black Ice-Municipal Waste/CountdownMW(hazardousMutationAlbum)Numero1.png" type="Texture" id=27]
+[ext_resource path="res://Scenes/Musicas(fases)/Black Ice-Municipal Waste/CountdownMW(hazardousMutationAlbum)Numero2.png" type="Texture" id=28]
+[ext_resource path="res://Scenes/Musicas(fases)/Black Ice-Municipal Waste/CountdownMW(hazardousMutationAlbum)NumeroGO.png" type="Texture" id=29]
+[ext_resource path="res://Scenes/Musicas(fases)/Black Ice-Municipal Waste/CountdownMW(hazardousMutationAlbum)Numero3.png" type="Texture" id=31]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 25.4209, 64.7714 )
+
+[sub_resource type="DynamicFont" id=2]
+font_data = ExtResource( 25 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 15
+font_data = ExtResource( 25 )
+
+[sub_resource type="Animation" id=4]
+length = 4.0
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("MongeFodao/countdown:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.98, 1, 1.98, 2, 2.98, 3, 3.99 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("MongeFodao/countdown:texture")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 1, 2, 3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 31 ), ExtResource( 28 ), ExtResource( 27 ), ExtResource( 29 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+length = 0.1
+
+[node name="Game" type="Node"]
+script = ExtResource( 26 )
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 646.018, 156.779 )
+scale = Vector2( 1.5, 1.64 )
+texture = ExtResource( 1 )
+offset = Vector2( 6.10352e-05, -1.52588e-05 )
+
+[node name="Sprite2" type="Sprite" parent="."]
+position = Vector2( 1396, 156.779 )
+scale = Vector2( 1.5, 1.64 )
+texture = ExtResource( 1 )
+offset = Vector2( 6.10352e-05, -1.52588e-05 )
+flip_h = true
+
+[node name="Sprite3" type="Sprite" parent="."]
+position = Vector2( 2143.78, 156.779 )
+scale = Vector2( 1.5, 1.64 )
+texture = ExtResource( 1 )
+offset = Vector2( 6.10352e-05, -1.52588e-05 )
+
+[node name="Sprite4" type="Sprite" parent="."]
+position = Vector2( 2891.42, 156.779 )
+scale = Vector2( 1.5, 1.64 )
+texture = ExtResource( 1 )
+offset = Vector2( 6.10352e-05, -1.52588e-05 )
+flip_h = true
+
+[node name="Sprite5" type="Sprite" parent="."]
+position = Vector2( 3640.62, 156.779 )
+scale = Vector2( 1.5, 1.64 )
+texture = ExtResource( 1 )
+offset = Vector2( 6.10352e-05, -1.52588e-05 )
+
+[node name="Sprite6" type="Sprite" parent="."]
+position = Vector2( 4389.66, 156.779 )
+scale = Vector2( 1.5, 1.64 )
+texture = ExtResource( 1 )
+offset = Vector2( 6.10352e-05, -1.52588e-05 )
+flip_h = true
+
+[node name="Sprite7" type="Sprite" parent="."]
+position = Vector2( 5138.38, 156.779 )
+scale = Vector2( 1.5, 1.64 )
+texture = ExtResource( 1 )
+offset = Vector2( 6.10352e-05, -1.52588e-05 )
+
+[node name="Sprite8" type="Sprite" parent="."]
+position = Vector2( 5883.2, 156.779 )
+scale = Vector2( 1.5, 1.64 )
+texture = ExtResource( 1 )
+offset = Vector2( 6.10352e-05, -1.52588e-05 )
+flip_h = true
+
+[node name="Sprite9" type="Sprite" parent="."]
+position = Vector2( 6632.21, 156.901 )
+scale = Vector2( 1.5, 1.64 )
+texture = ExtResource( 1 )
+offset = Vector2( 6.10352e-05, -1.52588e-05 )
+
+[node name="TileMap" type="TileMap" parent="."]
+visible = false
+scale = Vector2( 1, 1.3 )
+tile_set = ExtResource( 21 )
+cell_size = Vector2( 128, 54 )
+format = 1
+tile_data = PoolIntArray( 262146, 4, 0, 262147, 4, 0, 262148, 4, 0, 262149, 4, 0, 262150, 4, 0, 262151, 4, 0, 262152, 4, 0, 262153, 4, 0, 262154, 4, 0, 262155, 4, 0, 262156, 4, 0, 262157, 4, 0, 262158, 4, 0, 262159, 4, 0, 262160, 4, 0, 262161, 4, 0, 262162, 4, 0, 262163, 4, 0, 262164, 4, 0, 262165, 4, 0, 262166, 4, 0, 262167, 4, 0, 262168, 4, 0, 262169, 4, 0, 262170, 4, 0, 262171, 4, 0, 262172, 4, 0, 262173, 4, 0, 262174, 4, 0, 262175, 4, 0, 262176, 4, 0, 262177, 4, 0, 262178, 4, 0, 262179, 4, 0, 262180, 4, 0, 262181, 4, 0, 262182, 4, 0, 262183, 4, 0, 262184, 4, 0, 262185, 4, 0, 262186, 4, 0, 262187, 4, 0, 262188, 4, 0, 262189, 4, 0, 262190, 4, 0, 262191, 4, 0, 262192, 4, 0, 262193, 4, 0, 262194, 4, 0, 262195, 4, 0, 262196, 4, 0 )
+
+[node name="fimDeFase" type="Timer" parent="."]
+wait_time = 113.0
+
+[node name="EspancarEmatar" parent="." instance=ExtResource( 24 )]
+
+[node name="MongeFodao" parent="." instance=ExtResource( 22 )]
+position = Vector2( 569.604, 202.488 )
+
+[node name="spawners" type="Node2D" parent="MongeFodao"]
+position = Vector2( -570.77, -202.488 )
+
+[node name="Spawn_Inimigo direita2" parent="MongeFodao/spawners" instance=ExtResource( 23 )]
+position = Vector2( 996.438, 156.005 )
+
+[node name="danoFlorida" type="Area2D" parent="MongeFodao" groups=[
+"naArea",
+]]
+position = Vector2( 7, 0 )
+
+[node name="CollisionPolygon2D" type="CollisionShape2D" parent="MongeFodao/danoFlorida"]
+position = Vector2( -2.44873, 29 )
+shape = SubResource( 1 )
+
+[node name="countdown" type="Sprite" parent="MongeFodao"]
+modulate = Color( 1, 1, 1, 0.816327 )
+position = Vector2( 105.823, -47.1448 )
+rotation = 12.5664
+scale = Vector2( 2, 2 )
+texture = ExtResource( 31 )
+
+[node name="ButtonRetry" type="Button" parent="MongeFodao"]
+visible = false
+margin_left = -29.0
+margin_top = -47.0
+margin_right = 239.0
+margin_bottom = -10.0
+custom_fonts/font = SubResource( 2 )
+text = "Tentar Novamente"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="ButtonQuit" type="Button" parent="MongeFodao"]
+visible = false
+margin_left = -29.0
+margin_top = -86.0
+margin_right = 238.0
+margin_bottom = -51.0
+custom_fonts/font = SubResource( 3 )
+text = "continuar"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="danoFloridaNimation" type="AnimationPlayer" parent="."]
+anims/countdown = SubResource( 4 )
+anims/dano = SubResource( 5 )
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="."]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="ParallaxBackground"]
+
+[node name="Sprite10" type="Sprite" parent="ParallaxBackground/ParallaxLayer"]
+position = Vector2( 3643.69, 457.127 )
+scale = Vector2( 842.754, 24.9116 )
+texture = ExtResource( 2 )
+[connection signal="timeout" from="fimDeFase" to="." method="_on_fimDeFase_timeout"]
+[connection signal="body_entered" from="MongeFodao/danoFlorida" to="." method="_on_danoFlorida_body_entered"]
+[connection signal="pressed" from="MongeFodao/ButtonRetry" to="." method="_on_ButtonRetry_pressed"]
+[connection signal="pressed" from="MongeFodao/ButtonQuit" to="." method="_on_ButtonQuit_pressed"]

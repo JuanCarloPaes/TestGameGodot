@@ -1,0 +1,751 @@
+[gd_scene load_steps=133 format=2]
+
+[ext_resource path="res://Control.gd" type="Script" id=1]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/ghoul pegando fogo/morrendo/enemy-death3.png" type="Texture" id=2]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/ghoul pegando fogo/morrendo/enemy-death9.png" type="Texture" id=3]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/ghoul pegando fogo/morrendo/enemy-death7.png" type="Texture" id=4]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/ghoul pegando fogo/morrendo/enemy-death4.png" type="Texture" id=5]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/ghoul pegando fogo/morrendo/enemy-death6.png" type="Texture" id=6]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/ghoul pegando fogo/morrendo/enemy-death8.png" type="Texture" id=7]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/ghoul pegando fogo/morrendo/enemy-death5.png" type="Texture" id=8]
+[ext_resource path="res://Ritmic Fighter assets/Inimigos/ghoul pegando fogo/morrendo/enemy-death2.png" type="Texture" id=9]
+[ext_resource path="res://Ritmic Fighter assets/efeitos sonoros/porrada/Punch - Gaming Sound Effect (HD).ogg" type="AudioStream" id=10]
+[ext_resource path="res://Ritmic Fighter assets/efeitos sonoros/senhor Seisshoumaru/Jaken Senhor Sesshoumaru!.ogg" type="AudioStream" id=11]
+[ext_resource path="res://Ritmic Fighter assets/efeitos sonoros/passos/Footsteps - SOUND EFFECTS - Steps Schritte SOUND.ogg" type="AudioStream" id=12]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando36.png" type="Texture" id=13]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando24.png" type="Texture" id=14]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando15.png" type="Texture" id=15]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando11.png" type="Texture" id=16]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando13.png" type="Texture" id=17]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando16.png" type="Texture" id=18]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando9.png" type="Texture" id=19]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando18.png" type="Texture" id=20]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando6.png" type="Texture" id=21]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando20.png" type="Texture" id=22]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando10.png" type="Texture" id=23]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando23.png" type="Texture" id=24]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando14.png" type="Texture" id=25]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando19.png" type="Texture" id=26]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando22.png" type="Texture" id=27]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando26.png" type="Texture" id=28]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando27.png" type="Texture" id=29]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando28.png" type="Texture" id=30]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando12.png" type="Texture" id=31]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando17.png" type="Texture" id=32]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando21.png" type="Texture" id=33]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando7.png" type="Texture" id=34]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando4.png" type="Texture" id=35]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando2.png" type="Texture" id=36]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando3.png" type="Texture" id=37]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando25.png" type="Texture" id=38]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando29.png" type="Texture" id=39]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando31.png" type="Texture" id=40]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando30.png" type="Texture" id=41]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando8.png" type="Texture" id=42]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando5.png" type="Texture" id=43]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando39.png" type="Texture" id=44]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando38.png" type="Texture" id=45]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando33.png" type="Texture" id=46]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando34.png" type="Texture" id=47]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando32.png" type="Texture" id=48]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando37.png" type="Texture" id=49]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken assoprando/Jaken Inuyasha soprando35.png" type="Texture" id=50]
+[ext_resource path="res://Ritmic Fighter assets/efeitos sonoros/lancaChamas/Flamethrower Sound Effects.ogg" type="AudioStream" id=51]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Andando/andando-completo-resize/andando-resize5.png" type="Texture" id=52]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/aterrisando/Caindo-resize/caindo-resize1.png" type="Texture" id=53]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/aterrisando/Caindo-resize/caindo-resize2.png" type="Texture" id=54]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando44.png" type="Texture" id=55]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando48.png" type="Texture" id=56]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando57.png" type="Texture" id=57]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando58.png" type="Texture" id=58]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando59.png" type="Texture" id=59]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando41.png" type="Texture" id=60]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Andando/andando-completo-resize/andando-resize1.png" type="Texture" id=61]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando46.png" type="Texture" id=62]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando50.png" type="Texture" id=63]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando52.png" type="Texture" id=64]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando53.png" type="Texture" id=65]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando47.png" type="Texture" id=66]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando54.png" type="Texture" id=67]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando51.png" type="Texture" id=68]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/agachado/Abaixado-resize/Abaixado-resize1.png" type="Texture" id=69]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando40.png" type="Texture" id=70]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando42.png" type="Texture" id=71]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando45.png" type="Texture" id=72]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando49.png" type="Texture" id=73]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando55.png" type="Texture" id=74]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando56.png" type="Texture" id=75]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando43.png" type="Texture" id=76]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando63.png" type="Texture" id=77]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando61.png" type="Texture" id=78]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando60.png" type="Texture" id=79]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken fugindo/Jaken Inuyasha soprando62.png" type="Texture" id=80]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/chute voador/ChuteVoadorSemEfeito-resize/Chute-voador-sem-efeito-resize2.png" type="Texture" id=81]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Andando/andando-completo-resize/andando-resize3.png" type="Texture" id=82]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/pulando/PuloCompleto-Resize/puloCompleto-resize2.png" type="Texture" id=83]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Andando/andando-completo-resize/andando-resize2.png" type="Texture" id=84]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Andando/andando-completo-resize/andando-resize4.png" type="Texture" id=85]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/Andando/andando-completo-resize/andando-resize6.png" type="Texture" id=86]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/pulando/PuloCompleto-Resize/puloCompleto-resize1.png" type="Texture" id=87]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/chute voador/ChuteVoadorSemEfeito-resize/Chute-voador-sem-efeito-resize1.png" type="Texture" id=88]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/agachado/Abaixado-resize/Abaixado-resize2.png" type="Texture" id=89]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/agachado/Abaixado-resize/Abaixado-resize3.png" type="Texture" id=90]
+[ext_resource path="res://Ritmic Fighter assets/PERSONAGENS PIXEL ART IRADOS/Monge Foda/agachado/Abaixado-resize/Abaixado-resize4.png" type="Texture" id=91]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3201-6.png" type="Texture" id=92]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3201-0.png" type="Texture" id=93]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3201-5.png" type="Texture" id=94]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3201-7.png" type="Texture" id=95]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3201-8.png" type="Texture" id=96]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3201-4.png" type="Texture" id=97]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3201-3.png" type="Texture" id=98]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3201-2.png" type="Texture" id=99]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3201-1.png" type="Texture" id=100]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/SerenaCorrendo-export1.png" type="Texture" id=101]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/SerenaCorrendo-export2.png" type="Texture" id=102]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/SerenaCorrendo-export3.png" type="Texture" id=103]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/SerenaCorrendo-export4.png" type="Texture" id=104]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/SerenaCorrendo-export6.png" type="Texture" id=105]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/SerenaCorrendo-export5.png" type="Texture" id=106]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3200-0.png" type="Texture" id=107]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3203-5.png" type="Texture" id=108]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3203-2.png" type="Texture" id=109]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3203-6.png" type="Texture" id=110]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3203-1.png" type="Texture" id=111]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken3/Jaken Inuyasha soprando(3)36.png" type="Texture" id=112]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3203-0.png" type="Texture" id=113]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3203-3.png" type="Texture" id=114]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3203-4.png" type="Texture" id=115]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3200-4.png" type="Texture" id=116]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3200-1.png" type="Texture" id=117]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3200-2.png" type="Texture" id=118]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/TiaraLunar_3200-3.png" type="Texture" id=119]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/Tiara Lunar.ogg" type="AudioStream" id=120]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken3/Jaken Inuyasha soprando(3)37.png" type="Texture" id=124]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/jaken3/Jaken Inuyasha soprando(3)38.png" type="Texture" id=134]
+[ext_resource path="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Jaken/LogoJaken.png" type="Texture" id=138]
+
+[sub_resource type="Animation" id=1]
+resource_name = "Opening"
+length = 0.7
+tracks/0/type = "value"
+tracks/0/path = NodePath("Sprite:texture")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 9 ), ExtResource( 2 ), ExtResource( 5 ), ExtResource( 8 ), ExtResource( 6 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 3 ) ]
+}
+
+[sub_resource type="SpriteFrames" id=2]
+animations = [ {
+"frames": [ ExtResource( 113 ), ExtResource( 111 ), ExtResource( 109 ), ExtResource( 114 ), ExtResource( 115 ), ExtResource( 108 ), ExtResource( 110 ) ],
+"loop": false,
+"name": "Sailor Moon Dissip",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 93 ), ExtResource( 100 ), ExtResource( 99 ), ExtResource( 98 ), ExtResource( 97 ), ExtResource( 94 ), ExtResource( 92 ), ExtResource( 95 ), ExtResource( 96 ) ],
+"loop": true,
+"name": "Sailor Moon Tiara",
+"speed": 10.0
+} ]
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ ExtResource( 101 ), ExtResource( 102 ), ExtResource( 103 ), ExtResource( 104 ), ExtResource( 106 ), ExtResource( 105 ) ],
+"loop": true,
+"name": "Sailor Moon Correndo",
+"speed": 10.0
+}, {
+"frames": [  ],
+"loop": true,
+"name": "Sailor Moon Segunda Anim",
+"speed": 5.0
+} ]
+
+[sub_resource type="SpriteFrames" id=4]
+animations = [ {
+"frames": [ ExtResource( 70 ), ExtResource( 60 ), ExtResource( 71 ), ExtResource( 76 ), ExtResource( 55 ), ExtResource( 72 ), ExtResource( 62 ), ExtResource( 66 ), ExtResource( 56 ), ExtResource( 73 ), ExtResource( 63 ), ExtResource( 68 ), ExtResource( 64 ), ExtResource( 65 ), ExtResource( 67 ), ExtResource( 74 ), ExtResource( 75 ), ExtResource( 57 ), ExtResource( 58 ), ExtResource( 59 ), ExtResource( 79 ), ExtResource( 78 ), ExtResource( 80 ), ExtResource( 77 ) ],
+"loop": false,
+"name": "fugindo",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 36 ), ExtResource( 37 ), ExtResource( 35 ), ExtResource( 43 ), ExtResource( 21 ), ExtResource( 34 ), ExtResource( 42 ), ExtResource( 19 ), ExtResource( 23 ), ExtResource( 16 ), ExtResource( 31 ), ExtResource( 17 ), ExtResource( 25 ), ExtResource( 15 ), ExtResource( 18 ), ExtResource( 32 ), ExtResource( 20 ), ExtResource( 26 ), ExtResource( 22 ) ],
+"loop": false,
+"name": "inicio",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 33 ), ExtResource( 27 ), ExtResource( 24 ), ExtResource( 14 ), ExtResource( 38 ), ExtResource( 28 ), ExtResource( 29 ), ExtResource( 30 ), ExtResource( 39 ), ExtResource( 41 ), ExtResource( 40 ), ExtResource( 48 ), ExtResource( 46 ), ExtResource( 47 ), ExtResource( 50 ), ExtResource( 13 ), ExtResource( 49 ), ExtResource( 45 ), ExtResource( 44 ) ],
+"loop": true,
+"name": "inicioMeio",
+"speed": 20.0
+}, {
+"frames": [ ExtResource( 112 ), ExtResource( 124 ), ExtResource( 134 ) ],
+"loop": true,
+"name": "meio",
+"speed": 20.0
+} ]
+
+[sub_resource type="Animation" id=5]
+length = 2.27
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("falaJaken:playing")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2.27 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="Animation" id=6]
+length = 1.4
+tracks/0/type = "value"
+tracks/0/path = NodePath("PersonagensSurrando:position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.1, 0.2, 0.4, 0.5, 0.7, 0.9, 1.2, 1.4 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -55.1816, 408.36 ), Vector2( 27.92, 408.36 ), Vector2( 111.021, 408.36 ), Vector2( 194.122, 408.36 ), Vector2( 277.223, 360 ), Vector2( 503.863, 162.294 ), Vector2( 672.224, 188.195 ), Vector2( 935.558, 265.9 ), Vector2( 1224.79, 408.36 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("PersonagensSurrando:animation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.4, 0.7, 1.1, 1.4 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ "MongeIntro", "MongePulando", "MongeAtaque", "MongeQuaseFim", "MongeFim" ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("explosoes:animation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0.9 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "normal" ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("explosoes:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.9, 1.1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ false, true, false ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("Sprite2:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 1 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("explosoes:playing")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 0.9 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("explosoes:frame")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ 0 ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("passos:playing")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 0.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("porradaSom:playing")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0.9, 1.2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("AnimationPlayer:playback_speed")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0.8 ]
+}
+
+[sub_resource type="Animation" id=7]
+length = 4.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("passos:playing")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("EntradasDiferenciadas:position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Vector2( -98.73, 320 ), Vector2( 180, 320 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("EntradasDiferenciadas:animation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ "Sailor Moon Correndo", "Sailor Moon Segunda Anim" ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("EntradasDiferenciadas:playing")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("EntradasDiferenciadas/PersonagemDaVez:texture")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0.5, 0.9, 1, 1.1, 1.2 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 1,
+"values": [ ExtResource( 107 ), ExtResource( 117 ), ExtResource( 118 ), ExtResource( 119 ), ExtResource( 116 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("EntradasDiferenciadas/PersonagemDaVez:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0, 0.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("EntradasDiferenciadas(arremessáveis e afins):playing")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0.5, 1.5 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("EntradasDiferenciadas(arremessáveis e afins):visible")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0, 0.5, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ false, true, true ]
+}
+tracks/8/type = "value"
+tracks/8/path = NodePath("EntradasDiferenciadas(arremessáveis e afins):animation")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/keys = {
+"times": PoolRealArray( 0.5, 1.5, 3.5 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ "Sailor Moon Dissip", "Sailor Moon Tiara", "Sailor Moon Dissip" ]
+}
+tracks/9/type = "value"
+tracks/9/path = NodePath("Sprite2:visible")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/keys = {
+"times": PoolRealArray( 0, 3.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/10/type = "value"
+tracks/10/path = NodePath("explosoes:playing")
+tracks/10/interp = 1
+tracks/10/loop_wrap = true
+tracks/10/imported = false
+tracks/10/enabled = true
+tracks/10/keys = {
+"times": PoolRealArray( 0, 3.4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ false, true ]
+}
+tracks/11/type = "value"
+tracks/11/path = NodePath("explosoes:visible")
+tracks/11/interp = 1
+tracks/11/loop_wrap = true
+tracks/11/imported = false
+tracks/11/enabled = true
+tracks/11/keys = {
+"times": PoolRealArray( 0, 3.4, 3.8 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 1,
+"values": [ false, true, false ]
+}
+tracks/12/type = "value"
+tracks/12/path = NodePath("explosoes:animation")
+tracks/12/interp = 1
+tracks/12/loop_wrap = true
+tracks/12/imported = false
+tracks/12/enabled = true
+tracks/12/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ "normal" ]
+}
+tracks/13/type = "value"
+tracks/13/path = NodePath("explosoes:frame")
+tracks/13/interp = 1
+tracks/13/loop_wrap = true
+tracks/13/imported = false
+tracks/13/enabled = true
+tracks/13/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ 0 ]
+}
+tracks/14/type = "value"
+tracks/14/path = NodePath("EntradasDiferenciadas(arremessáveis e afins):position")
+tracks/14/interp = 1
+tracks/14/loop_wrap = true
+tracks/14/imported = false
+tracks/14/enabled = true
+tracks/14/keys = {
+"times": PoolRealArray( 0, 0.5, 0.89, 0.9, 1.5, 2.5, 3.4 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( -100, -100 ), Vector2( 201.883, 224.272 ), Vector2( 201.883, 224.272 ), Vector2( 178.552, 254.019 ), Vector2( 285.441, 255 ), Vector2( 1500, 255 ), Vector2( 800, 255 ) ]
+}
+tracks/15/type = "value"
+tracks/15/path = NodePath("AnimationPlayer:playback_speed")
+tracks/15/interp = 1
+tracks/15/loop_wrap = true
+tracks/15/imported = false
+tracks/15/enabled = true
+tracks/15/keys = {
+"times": PoolRealArray( 0, 3.9 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.7, 1.0 ]
+}
+tracks/16/type = "value"
+tracks/16/path = NodePath("EntradasDiferenciadas:visible")
+tracks/16/interp = 1
+tracks/16/loop_wrap = true
+tracks/16/imported = false
+tracks/16/enabled = true
+tracks/16/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ true ]
+}
+tracks/17/type = "value"
+tracks/17/path = NodePath("EntradasDiferenciadas(arremessáveis e afins):scale")
+tracks/17/interp = 1
+tracks/17/loop_wrap = true
+tracks/17/imported = false
+tracks/17/enabled = true
+tracks/17/keys = {
+"times": PoolRealArray( 0, 1.4, 2, 2.7, 3.5 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector2( 1, 1 ), Vector2( 1, 1 ), Vector2( 3, 3 ), Vector2( 3, 3 ), Vector2( 1, 1 ) ]
+}
+tracks/18/type = "value"
+tracks/18/path = NodePath("EntradasDiferenciadas(arremessáveis e afins):frame")
+tracks/18/interp = 1
+tracks/18/loop_wrap = true
+tracks/18/imported = false
+tracks/18/enabled = true
+tracks/18/keys = {
+"times": PoolRealArray( 0.5 ),
+"transitions": PoolRealArray( 1 ),
+"update": 1,
+"values": [ 0 ]
+}
+tracks/19/type = "value"
+tracks/19/path = NodePath("EntradasDiferenciadas(arremessáveis e afins):z_index")
+tracks/19/interp = 1
+tracks/19/loop_wrap = true
+tracks/19/imported = false
+tracks/19/enabled = true
+tracks/19/keys = {
+"times": PoolRealArray( 0, 0.9 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ 1, 0 ]
+}
+tracks/20/type = "value"
+tracks/20/path = NodePath("EntradasDiferenciadas/FalaSailorMoon:playing")
+tracks/20/interp = 1
+tracks/20/loop_wrap = true
+tracks/20/imported = false
+tracks/20/enabled = true
+tracks/20/keys = {
+"times": PoolRealArray( 0, 4 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 1,
+"values": [ true, false ]
+}
+
+[sub_resource type="SpriteFrames" id=8]
+animations = [ {
+"frames": [ ExtResource( 88 ), ExtResource( 81 ), ExtResource( 88 ), ExtResource( 81 ), ExtResource( 88 ), ExtResource( 81 ) ],
+"loop": true,
+"name": "MongeAtaque",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 69 ), ExtResource( 89 ), ExtResource( 90 ), ExtResource( 91 ) ],
+"loop": true,
+"name": "MongeFim",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 61 ), ExtResource( 84 ), ExtResource( 82 ), ExtResource( 85 ), ExtResource( 52 ), ExtResource( 86 ) ],
+"loop": true,
+"name": "MongeIntro",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 87 ), ExtResource( 83 ) ],
+"loop": true,
+"name": "MongePulando",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 53 ), ExtResource( 54 ), ExtResource( 53 ), ExtResource( 54 ) ],
+"loop": true,
+"name": "MongeQuaseFim",
+"speed": 10.0
+} ]
+
+[sub_resource type="SpriteFrames" id=9]
+animations = [ {
+"frames": [ ExtResource( 9 ), ExtResource( 2 ), ExtResource( 5 ), ExtResource( 8 ), ExtResource( 6 ), ExtResource( 4 ), ExtResource( 7 ), ExtResource( 3 ) ],
+"loop": false,
+"name": "normal",
+"speed": 21.0
+} ]
+
+[node name="Control" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Panel" type="Panel" parent="."]
+modulate = Color( 0.729412, 0.729412, 0.729412, 1 )
+margin_left = -11.0
+margin_top = -9.0
+margin_right = 1304.0
+margin_bottom = 738.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button" type="TextureButton" parent="."]
+margin_left = 1.0
+margin_top = -6.0
+margin_right = 451.0
+margin_bottom = 161.0
+rect_scale = Vector2( 2.88618, 4.33783 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Joe" type="AnimationPlayer" parent="."]
+playback_speed = 5.0
+anims/Opening = SubResource( 1 )
+
+[node name="EntradasDiferenciadas(arremessáveis e afins)" type="AnimatedSprite" parent="."]
+visible = false
+position = Vector2( 800, 255 )
+frames = SubResource( 2 )
+animation = "Sailor Moon Dissip"
+frame = 6
+playing = true
+
+[node name="EntradasDiferenciadas" type="AnimatedSprite" parent="."]
+visible = false
+position = Vector2( 180, 320 )
+scale = Vector2( 2, 2 )
+frames = SubResource( 3 )
+animation = "Sailor Moon Segunda Anim"
+playing = true
+
+[node name="FalaSailorMoon" type="AudioStreamPlayer" parent="EntradasDiferenciadas"]
+stream = ExtResource( 120 )
+
+[node name="PersonagemDaVez" type="Sprite" parent="EntradasDiferenciadas"]
+visible = false
+texture = ExtResource( 116 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+visible = false
+position = Vector2( 450.012, 262.788 )
+scale = Vector2( 4, 4 )
+frames = SubResource( 4 )
+animation = "inicio"
+
+[node name="Sprite2" type="Sprite" parent="."]
+visible = false
+position = Vector2( 779.287, 245.693 )
+scale = Vector2( 1.5, 1.5 )
+texture = ExtResource( 138 )
+
+[node name="Sprite" type="Sprite" parent="."]
+visible = false
+position = Vector2( 782.469, 253.471 )
+scale = Vector2( 8, 4 )
+texture = ExtResource( 9 )
+
+[node name="Label" type="Label" parent="."]
+visible = false
+margin_left = 508.215
+margin_top = 572.046
+margin_right = 766.215
+margin_bottom = 586.046
+rect_scale = Vector2( 1.16, 1.48 )
+text = "Aperte em qualquer lugar para continuar"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="lancaChama" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 51 )
+volume_db = -10.0
+
+[node name="falaJaken" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 11 )
+
+[node name="passos" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 12 )
+volume_db = -10.0
+pitch_scale = 2.5
+
+[node name="falaJakenEXT" type="AnimationPlayer" parent="."]
+anims/falasso = SubResource( 5 )
+
+[node name="SeparadorDeIntro" type="Node" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+anims/MongeIntro = SubResource( 6 )
+anims/SailorMoonIntro = SubResource( 7 )
+
+[node name="PersonagensSurrando" type="AnimatedSprite" parent="."]
+visible = false
+position = Vector2( 1224.79, 408.36 )
+frames = SubResource( 8 )
+animation = "MongeFim"
+frame = 2
+playing = true
+
+[node name="explosoes" type="AnimatedSprite" parent="."]
+visible = false
+position = Vector2( 779.209, 246.066 )
+scale = Vector2( 8, 4 )
+frames = SubResource( 9 )
+animation = "normal"
+frame = 7
+playing = true
+
+[node name="porradaSom" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 10 )
+volume_db = -25.0
+pitch_scale = 1.2
+
+[connection signal="pressed" from="Button" to="." method="_on_Button_pressed"]

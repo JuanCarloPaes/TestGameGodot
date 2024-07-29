@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Tiara Lunar.ogg-e5f23d89ad1ae81c7e1c2fe36847207a.oggstr"
+
+[deps]
+
+source_file="res://Ritmic Fighter assets/Backgroundo/IntrosEXTREMAS/Sailor Moon/Tiara Lunar.ogg"
+dest_files=[ "res://.import/Tiara Lunar.ogg-e5f23d89ad1ae81c7e1c2fe36847207a.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

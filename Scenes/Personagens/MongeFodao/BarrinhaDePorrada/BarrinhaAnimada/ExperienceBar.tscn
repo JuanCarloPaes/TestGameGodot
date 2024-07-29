@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://Scenes/Personagens/MongeFodao/BarrinhaDePorrada/BarrinhaAnimada/ExperienceBar.gd" type="Script" id=1]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/barra de vida e etc/bar_background.png" type="Texture" id=2]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/barra de vida e etc/text_experience.png" type="Texture" id=3]
+[ext_resource path="res://Ritmic Fighter assets/Sinalizadores/barra de vida e etc/bar_fill.png" type="Texture" id=4]
+
+[node name="ExperienceBar" type="TextureProgress"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_right = 40.0
+margin_bottom = 40.0
+max_value = 34.0
+value = 15.0
+texture_under = ExtResource( 2 )
+texture_progress = ExtResource( 4 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Experience" type="TextureRect" parent="."]
+margin_top = -46.0
+margin_right = 343.0
+margin_bottom = -6.0
+texture = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tween" type="Tween" parent="."]
